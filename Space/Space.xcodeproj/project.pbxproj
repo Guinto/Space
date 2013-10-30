@@ -34,6 +34,14 @@
 		A6E113781820D43300847F33 /* playerShot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E113751820D43300847F33 /* playerShot@2x.png */; };
 		A6E113791820D43300847F33 /* spaceBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E113761820D43300847F33 /* spaceBackground@2x.png */; };
 		A6E1137D1820D4BE00847F33 /* ServiceBase.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E1137C1820D4BE00847F33 /* ServiceBase.m */; };
+		A6E113801820D51700847F33 /* LaserService.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E1137F1820D51700847F33 /* LaserService.m */; };
+		A6E113841820D61000847F33 /* DomainObjectBase.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E113831820D61000847F33 /* DomainObjectBase.m */; };
+		A6E113871820D62600847F33 /* Laser.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E113861820D62600847F33 /* Laser.m */; };
+		A6E1138A1820D72500847F33 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E113891820D72500847F33 /* Player.m */; };
+		A6E1138D1820D97600847F33 /* PlayerService.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E1138C1820D97600847F33 /* PlayerService.m */; };
+		A6E113901820E2FC00847F33 /* BackgroundService.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E1138F1820E2FC00847F33 /* BackgroundService.m */; };
+		A6E113931820E31E00847F33 /* Background.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E113921820E31E00847F33 /* Background.m */; };
+		A6E1139D1820E6FC00847F33 /* UIScreen+ScreenSize.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E1139C1820E6FC00847F33 /* UIScreen+ScreenSize.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +89,22 @@
 		A6E113761820D43300847F33 /* spaceBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "spaceBackground@2x.png"; path = "images/spaceBackground@2x.png"; sourceTree = "<group>"; };
 		A6E1137B1820D4BE00847F33 /* ServiceBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ServiceBase.h; path = Services/ServiceBase.h; sourceTree = "<group>"; };
 		A6E1137C1820D4BE00847F33 /* ServiceBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ServiceBase.m; path = Services/ServiceBase.m; sourceTree = "<group>"; };
+		A6E1137E1820D51700847F33 /* LaserService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LaserService.h; path = Services/LaserService.h; sourceTree = "<group>"; };
+		A6E1137F1820D51700847F33 /* LaserService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LaserService.m; path = Services/LaserService.m; sourceTree = "<group>"; };
+		A6E113821820D61000847F33 /* DomainObjectBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DomainObjectBase.h; path = DomainObjects/DomainObjectBase.h; sourceTree = "<group>"; };
+		A6E113831820D61000847F33 /* DomainObjectBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DomainObjectBase.m; path = DomainObjects/DomainObjectBase.m; sourceTree = "<group>"; };
+		A6E113851820D62600847F33 /* Laser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Laser.h; path = DomainObjects/Laser.h; sourceTree = "<group>"; };
+		A6E113861820D62600847F33 /* Laser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Laser.m; path = DomainObjects/Laser.m; sourceTree = "<group>"; };
+		A6E113881820D72500847F33 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Player.h; path = DomainObjects/Player.h; sourceTree = "<group>"; };
+		A6E113891820D72500847F33 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Player.m; path = DomainObjects/Player.m; sourceTree = "<group>"; };
+		A6E1138B1820D97600847F33 /* PlayerService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayerService.h; path = Services/PlayerService.h; sourceTree = "<group>"; };
+		A6E1138C1820D97600847F33 /* PlayerService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayerService.m; path = Services/PlayerService.m; sourceTree = "<group>"; };
+		A6E1138E1820E2FC00847F33 /* BackgroundService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BackgroundService.h; path = Services/BackgroundService.h; sourceTree = "<group>"; };
+		A6E1138F1820E2FC00847F33 /* BackgroundService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BackgroundService.m; path = Services/BackgroundService.m; sourceTree = "<group>"; };
+		A6E113911820E31E00847F33 /* Background.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Background.h; path = DomainObjects/Background.h; sourceTree = "<group>"; };
+		A6E113921820E31E00847F33 /* Background.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Background.m; path = DomainObjects/Background.m; sourceTree = "<group>"; };
+		A6E1139B1820E6FC00847F33 /* UIScreen+ScreenSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIScreen+ScreenSize.h"; path = "Categories/UIScreen+ScreenSize.h"; sourceTree = "<group>"; };
+		A6E1139C1820E6FC00847F33 /* UIScreen+ScreenSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIScreen+ScreenSize.m"; path = "Categories/UIScreen+ScreenSize.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +166,8 @@
 		A6AFF3CD181F7BF5004CD462 /* Space */ = {
 			isa = PBXGroup;
 			children = (
+				A6E113941820E69B00847F33 /* Categories */,
+				A6E113811820D5DD00847F33 /* DomainObjects */,
 				A6E1137A1820D4A400847F33 /* Services */,
 				A6AFF403181F8049004CD462 /* Images */,
 				A6AFF3D6181F7BF5004CD462 /* AppDelegate.h */,
@@ -208,8 +234,38 @@
 			children = (
 				A6E1137B1820D4BE00847F33 /* ServiceBase.h */,
 				A6E1137C1820D4BE00847F33 /* ServiceBase.m */,
+				A6E1137E1820D51700847F33 /* LaserService.h */,
+				A6E1137F1820D51700847F33 /* LaserService.m */,
+				A6E1138B1820D97600847F33 /* PlayerService.h */,
+				A6E1138C1820D97600847F33 /* PlayerService.m */,
+				A6E1138E1820E2FC00847F33 /* BackgroundService.h */,
+				A6E1138F1820E2FC00847F33 /* BackgroundService.m */,
 			);
 			name = Services;
+			sourceTree = "<group>";
+		};
+		A6E113811820D5DD00847F33 /* DomainObjects */ = {
+			isa = PBXGroup;
+			children = (
+				A6E113821820D61000847F33 /* DomainObjectBase.h */,
+				A6E113831820D61000847F33 /* DomainObjectBase.m */,
+				A6E113851820D62600847F33 /* Laser.h */,
+				A6E113861820D62600847F33 /* Laser.m */,
+				A6E113881820D72500847F33 /* Player.h */,
+				A6E113891820D72500847F33 /* Player.m */,
+				A6E113911820E31E00847F33 /* Background.h */,
+				A6E113921820E31E00847F33 /* Background.m */,
+			);
+			name = DomainObjects;
+			sourceTree = "<group>";
+		};
+		A6E113941820E69B00847F33 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				A6E1139B1820E6FC00847F33 /* UIScreen+ScreenSize.h */,
+				A6E1139C1820E6FC00847F33 /* UIScreen+ScreenSize.m */,
+			);
+			name = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -320,10 +376,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6AFF3E1181F7BF5004CD462 /* MyScene.m in Sources */,
+				A6E113871820D62600847F33 /* Laser.m in Sources */,
 				A6AFF3DE181F7BF5004CD462 /* GameViewController.m in Sources */,
 				A6E1137D1820D4BE00847F33 /* ServiceBase.m in Sources */,
+				A6E1139D1820E6FC00847F33 /* UIScreen+ScreenSize.m in Sources */,
+				A6E1138D1820D97600847F33 /* PlayerService.m in Sources */,
+				A6E113841820D61000847F33 /* DomainObjectBase.m in Sources */,
 				A6AFF3D8181F7BF5004CD462 /* AppDelegate.m in Sources */,
+				A6E113931820E31E00847F33 /* Background.m in Sources */,
 				A6AFF3D4181F7BF5004CD462 /* main.m in Sources */,
+				A6E1138A1820D72500847F33 /* Player.m in Sources */,
+				A6E113801820D51700847F33 /* LaserService.m in Sources */,
+				A6E113901820E2FC00847F33 /* BackgroundService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

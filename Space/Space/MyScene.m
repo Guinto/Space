@@ -7,29 +7,32 @@
 //
 
 #import "MyScene.h"
+#import "LaserService.h"
+#import "PlayerService.h"
+#import "BackgroundService.h"
+
+@interface MyScene ()
+
+@property (nonatomic) LaserService *laserService;
+@property (nonatomic) PlayerService *playerService;
+@property (nonatomic) BackgroundService *backgroundService;
+
+@property (nonatomic) CFTimeInterval previousTime;
+
+@end
 
 @implementation MyScene
-
-- (SKSpriteNode *)createBackground
-{
-    SKSpriteNode *backgroundSprite;
-    SKTexture *textureImage;
-    textureImage = [SKTexture textureWithImageNamed:@"spaceBackground"];
-    backgroundSprite = [SKSpriteNode spriteNodeWithTexture:textureImage];
-    backgroundSprite.position = CGPointMake(CGRectGetMidX(self.frame), CGRectGetMidY(self.frame));
-    
-    return backgroundSprite;
-}
 
 - (id)initWithSize:(CGSize)size
 {
     if (self = [super initWithSize:size]) {
-        SKSpriteNode *backgroundSprite = [self createBackground];
-        [self addChild:backgroundSprite];
+        self.backgroundService = [BackgroundService sharedService];
+        self.laserService = [LaserService sharedService];
+        self.playerService = [PlayerService sharedService];
         
-        SKSpriteNode *playerSprite = [SKSpriteNode spriteNodeWithImageNamed:@"playerShip"];
-        playerSprite.position = CGPointMake(CGRectGetMidX(self.frame), 150);
-        [self addChild:playerSprite];
+        [self addChild:self.backgroundService.background.sprite];
+        
+        [self addChild:self.playerService.player.sprite];
     }
     return self;
 }
@@ -37,17 +40,17 @@
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
     for (UITouch *touch in touches) {
-        CGPoint location = [touch locationInNode:self];
-        
-        SKSpriteNode *shotSprite = [SKSpriteNode spriteNodeWithImageNamed:@"playerShot"];
-        shotSprite.position = location;
-        [self addChild:shotSprite];
+        [self addChild:[[LaserService sharedService] shootPlayerLaser]];
     }
 }
 
 - (void)update:(CFTimeInterval)currentTime
 {
-    /* Called before each frame is rendered */
+    CFTimeInterval dt = currentTime - self.previousTime;
+    
+    [self.laserService update:dt];
+    
+    self.previousTime = currentTime;
 }
 
 @end
