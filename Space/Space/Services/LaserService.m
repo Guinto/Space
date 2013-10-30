@@ -15,7 +15,7 @@
 
 @interface LaserService ()
 
-@property (nonatomic) NSMutableArray *laserShots;
+@property (nonatomic) NSMutableArray *playerLaserShots;
 
 @end
 
@@ -27,23 +27,23 @@
     Laser *shot = [[Laser alloc] init];
     shot.sprite.position = playerPosition;
     
-    [self.laserShots addObject:shot];
+    [self.playerLaserShots addObject:shot];
     
     return shot.sprite;
 }
 
 - (void)update:(CFTimeInterval)dt;
 {
-    if (self.laserShots.count == 0) {
+    if (self.playerLaserShots.count == 0) {
         return;
     }
     
-    NSArray *currentShots = [self.laserShots copy];
+    NSArray *currentPlayerShots = [self.playerLaserShots copy];
     
-    for (Laser *shot in currentShots)
+    for (Laser *shot in currentPlayerShots)
     {
         if (shot.sprite.position.y > [UIScreen height]) {
-            [self.laserShots removeObject:shot];
+            [self.playerLaserShots removeObject:shot];
         } else {
             shot.sprite.position = CGPointMake(shot.sprite.position.x, shot.sprite.position.y + 1 * dt * TIME_MODIFIER);
         }
@@ -55,7 +55,7 @@
     self = [super init];
     
     if (self) {
-        self.laserShots = [[NSMutableArray alloc] init];
+        self.playerLaserShots = [[NSMutableArray alloc] init];
     }
     
     return self;

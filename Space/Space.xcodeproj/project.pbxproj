@@ -23,7 +23,6 @@
 		A6AFF3EE181F7BF5004CD462 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6AFF3C9181F7BF5004CD462 /* UIKit.framework */; };
 		A6AFF3F6181F7BF5004CD462 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6AFF3F4181F7BF5004CD462 /* InfoPlist.strings */; };
 		A6AFF3F8181F7BF5004CD462 /* SpaceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6AFF3F7181F7BF5004CD462 /* SpaceTests.m */; };
-		A6AFF405181F805A004CD462 /* spaceBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = A6AFF404181F805A004CD462 /* spaceBackground.png */; };
 		A6AFF40C181F81AC004CD462 /* playerShip.png in Resources */ = {isa = PBXBuildFile; fileRef = A6AFF406181F81AC004CD462 /* playerShip.png */; };
 		A6AFF40D181F81AC004CD462 /* playerShip@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6AFF407181F81AC004CD462 /* playerShip@2x.png */; };
 		A6AFF40E181F81AC004CD462 /* playerShipGoLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = A6AFF408181F81AC004CD462 /* playerShipGoLeft.png */; };
@@ -32,7 +31,6 @@
 		A6AFF411181F81AC004CD462 /* playerShipGoRight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6AFF40B181F81AC004CD462 /* playerShipGoRight@2x.png */; };
 		A6E113771820D43300847F33 /* playerShot.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E113741820D43300847F33 /* playerShot.png */; };
 		A6E113781820D43300847F33 /* playerShot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E113751820D43300847F33 /* playerShot@2x.png */; };
-		A6E113791820D43300847F33 /* spaceBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E113761820D43300847F33 /* spaceBackground@2x.png */; };
 		A6E1137D1820D4BE00847F33 /* ServiceBase.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E1137C1820D4BE00847F33 /* ServiceBase.m */; };
 		A6E113801820D51700847F33 /* LaserService.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E1137F1820D51700847F33 /* LaserService.m */; };
 		A6E113841820D61000847F33 /* DomainObjectBase.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E113831820D61000847F33 /* DomainObjectBase.m */; };
@@ -42,6 +40,8 @@
 		A6E113901820E2FC00847F33 /* BackgroundService.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E1138F1820E2FC00847F33 /* BackgroundService.m */; };
 		A6E113931820E31E00847F33 /* Background.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E113921820E31E00847F33 /* Background.m */; };
 		A6E1139D1820E6FC00847F33 /* UIScreen+ScreenSize.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E1139C1820E6FC00847F33 /* UIScreen+ScreenSize.m */; };
+		A6E113A01820E96C00847F33 /* spaceBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6E1139E1820E96C00847F33 /* spaceBackground.jpg */; };
+		A6E113A11820E96C00847F33 /* spaceBackground@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6E1139F1820E96C00847F33 /* spaceBackground@2x.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,7 +77,6 @@
 		A6AFF3F3181F7BF5004CD462 /* SpaceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpaceTests-Info.plist"; sourceTree = "<group>"; };
 		A6AFF3F5181F7BF5004CD462 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A6AFF3F7181F7BF5004CD462 /* SpaceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpaceTests.m; sourceTree = "<group>"; };
-		A6AFF404181F805A004CD462 /* spaceBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spaceBackground.png; path = images/spaceBackground.png; sourceTree = "<group>"; };
 		A6AFF406181F81AC004CD462 /* playerShip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = playerShip.png; path = images/playerShip.png; sourceTree = "<group>"; };
 		A6AFF407181F81AC004CD462 /* playerShip@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "playerShip@2x.png"; path = "images/playerShip@2x.png"; sourceTree = "<group>"; };
 		A6AFF408181F81AC004CD462 /* playerShipGoLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = playerShipGoLeft.png; path = images/playerShipGoLeft.png; sourceTree = "<group>"; };
@@ -86,7 +85,6 @@
 		A6AFF40B181F81AC004CD462 /* playerShipGoRight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "playerShipGoRight@2x.png"; path = "images/playerShipGoRight@2x.png"; sourceTree = "<group>"; };
 		A6E113741820D43300847F33 /* playerShot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = playerShot.png; path = images/playerShot.png; sourceTree = "<group>"; };
 		A6E113751820D43300847F33 /* playerShot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "playerShot@2x.png"; path = "images/playerShot@2x.png"; sourceTree = "<group>"; };
-		A6E113761820D43300847F33 /* spaceBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "spaceBackground@2x.png"; path = "images/spaceBackground@2x.png"; sourceTree = "<group>"; };
 		A6E1137B1820D4BE00847F33 /* ServiceBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ServiceBase.h; path = Services/ServiceBase.h; sourceTree = "<group>"; };
 		A6E1137C1820D4BE00847F33 /* ServiceBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ServiceBase.m; path = Services/ServiceBase.m; sourceTree = "<group>"; };
 		A6E1137E1820D51700847F33 /* LaserService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LaserService.h; path = Services/LaserService.h; sourceTree = "<group>"; };
@@ -105,6 +103,8 @@
 		A6E113921820E31E00847F33 /* Background.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Background.m; path = DomainObjects/Background.m; sourceTree = "<group>"; };
 		A6E1139B1820E6FC00847F33 /* UIScreen+ScreenSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIScreen+ScreenSize.h"; path = "Categories/UIScreen+ScreenSize.h"; sourceTree = "<group>"; };
 		A6E1139C1820E6FC00847F33 /* UIScreen+ScreenSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIScreen+ScreenSize.m"; path = "Categories/UIScreen+ScreenSize.m"; sourceTree = "<group>"; };
+		A6E1139E1820E96C00847F33 /* spaceBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = spaceBackground.jpg; path = images/spaceBackground.jpg; sourceTree = "<group>"; };
+		A6E1139F1820E96C00847F33 /* spaceBackground@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "spaceBackground@2x.jpg"; path = "images/spaceBackground@2x.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,16 +215,16 @@
 		A6AFF403181F8049004CD462 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				A6E1139E1820E96C00847F33 /* spaceBackground.jpg */,
+				A6E1139F1820E96C00847F33 /* spaceBackground@2x.jpg */,
 				A6E113741820D43300847F33 /* playerShot.png */,
 				A6E113751820D43300847F33 /* playerShot@2x.png */,
-				A6E113761820D43300847F33 /* spaceBackground@2x.png */,
 				A6AFF406181F81AC004CD462 /* playerShip.png */,
 				A6AFF407181F81AC004CD462 /* playerShip@2x.png */,
 				A6AFF408181F81AC004CD462 /* playerShipGoLeft.png */,
 				A6AFF409181F81AC004CD462 /* playerShipGoLeft@2x.png */,
 				A6AFF40A181F81AC004CD462 /* playerShipGoRight.png */,
 				A6AFF40B181F81AC004CD462 /* playerShipGoRight@2x.png */,
-				A6AFF404181F805A004CD462 /* spaceBackground.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -345,17 +345,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6AFF3D2181F7BF5004CD462 /* InfoPlist.strings in Resources */,
-				A6AFF405181F805A004CD462 /* spaceBackground.png in Resources */,
 				A6AFF40C181F81AC004CD462 /* playerShip.png in Resources */,
 				A6AFF40D181F81AC004CD462 /* playerShip@2x.png in Resources */,
-				A6E113791820D43300847F33 /* spaceBackground@2x.png in Resources */,
 				A6AFF40E181F81AC004CD462 /* playerShipGoLeft.png in Resources */,
 				A6E113771820D43300847F33 /* playerShot.png in Resources */,
 				A6AFF3E5181F7BF5004CD462 /* Images.xcassets in Resources */,
 				A6AFF40F181F81AC004CD462 /* playerShipGoLeft@2x.png in Resources */,
+				A6E113A11820E96C00847F33 /* spaceBackground@2x.jpg in Resources */,
 				A6AFF410181F81AC004CD462 /* playerShipGoRight.png in Resources */,
 				A6E113781820D43300847F33 /* playerShot@2x.png in Resources */,
 				A6AFF411181F81AC004CD462 /* playerShipGoRight@2x.png in Resources */,
+				A6E113A01820E96C00847F33 /* spaceBackground.jpg in Resources */,
 				A6AFF3DB181F7BF5004CD462 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
