@@ -6,17 +6,17 @@
 //  Copyright (c) 2013 Trent Ellingsen. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "GameViewController.h"
 #import "MyScene.h"
 
-@implementation ViewController
+@implementation GameViewController
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 
     // Configure the view.
-    SKView * skView = (SKView *)self.view;
+    SKView *skView = (SKView *)self.view;
     skView.showsFPS = YES;
     skView.showsNodeCount = YES;
     
@@ -40,12 +40,6 @@
     } else {
         return UIInterfaceOrientationMaskAll;
     }
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Release any cached data, images, etc that aren't in use.
 }
 
 @end

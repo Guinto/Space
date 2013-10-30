@@ -10,43 +10,43 @@
 
 @implementation MyScene
 
--(id)initWithSize:(CGSize)size {    
+- (SKSpriteNode *)createBackground
+{
+    SKSpriteNode *backgroundSprite;
+    SKTexture *textureImage;
+    textureImage = [SKTexture textureWithImageNamed:@"spaceBackground"];
+    backgroundSprite = [SKSpriteNode spriteNodeWithTexture:textureImage];
+    backgroundSprite.position = CGPointMake(CGRectGetMidX(self.frame), CGRectGetMidY(self.frame));
+    
+    return backgroundSprite;
+}
+
+- (id)initWithSize:(CGSize)size
+{
     if (self = [super initWithSize:size]) {
-        /* Setup your scene here */
+        SKSpriteNode *backgroundSprite = [self createBackground];
+        [self addChild:backgroundSprite];
         
-        self.backgroundColor = [SKColor colorWithRed:0.15 green:0.15 blue:0.3 alpha:1.0];
-        
-        SKLabelNode *myLabel = [SKLabelNode labelNodeWithFontNamed:@"Chalkduster"];
-        
-        myLabel.text = @"Hello, World!";
-        myLabel.fontSize = 30;
-        myLabel.position = CGPointMake(CGRectGetMidX(self.frame),
-                                       CGRectGetMidY(self.frame));
-        
-        [self addChild:myLabel];
+        SKSpriteNode *playerSprite = [SKSpriteNode spriteNodeWithImageNamed:@"playerShip"];
+        playerSprite.position = CGPointMake(CGRectGetMidX(self.frame), 150);
+        [self addChild:playerSprite];
     }
     return self;
 }
 
--(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
-    /* Called when a touch begins */
-    
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
+{
     for (UITouch *touch in touches) {
         CGPoint location = [touch locationInNode:self];
         
-        SKSpriteNode *sprite = [SKSpriteNode spriteNodeWithImageNamed:@"Spaceship"];
-        
-        sprite.position = location;
-        
-        SKAction *action = [SKAction rotateByAngle:M_PI duration:1];
-        
-        [sprite runAction:[SKAction repeatActionForever:action]];
-        
-        [self addChild:sprite];
+        SKSpriteNode *shotSprite = [SKSpriteNode spriteNodeWithImageNamed:@"playerShot"];
+        shotSprite.position = location;
+        [self addChild:shotSprite];
     }
 }
 
--(void)update:(CFTimeInterval)currentTime {
+- (void)update:(CFTimeInterval)currentTime
+{
     /* Called before each frame is rendered */
 }
 
