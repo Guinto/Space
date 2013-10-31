@@ -7,6 +7,58 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A66DB8501821D9E10083DEF3 /* greenBomberAlien.png in Resources */ = {isa = PBXBuildFile; fileRef = A66DB8201821D9E10083DEF3 /* greenBomberAlien.png */; };
+		A66DB8511821D9E10083DEF3 /* greenBomberAlien@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A66DB8211821D9E10083DEF3 /* greenBomberAlien@2x.png */; };
+		A66DB8521821D9E10083DEF3 /* greenBomberLeftAlien.png in Resources */ = {isa = PBXBuildFile; fileRef = A66DB8221821D9E10083DEF3 /* greenBomberLeftAlien.png */; };
+		A66DB8531821D9E10083DEF3 /* greenBomberLeftAlien@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A66DB8231821D9E10083DEF3 /* greenBomberLeftAlien@2x.png */; };
+		A66DB8541821D9E10083DEF3 /* greenBomberRightAlien.png in Resources */ = {isa = PBXBuildFile; fileRef = A66DB8241821D9E10083DEF3 /* greenBomberRightAlien.png */; };
+		A66DB8551821D9E10083DEF3 /* greenBomberRightAlien@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A66DB8251821D9E10083DEF3 /* greenBomberRightAlien@2x.png */; };
+		A66DB8561821D9E10083DEF3 /* greenFighterAlien.png in Resources */ = {isa = PBXBuildFile; fileRef = A66DB8261821D9E10083DEF3 /* greenFighterAlien.png */; };
+		A66DB8571821D9E10083DEF3 /* greenFighterAlien@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A66DB8271821D9E10083DEF3 /* greenFighterAlien@2x.png */; };
+		A66DB8581821D9E10083DEF3 /* greenFighterLeftAlien.png in Resources */ = {isa = PBXBuildFile; fileRef = A66DB8281821D9E10083DEF3 /* greenFighterLeftAlien.png */; };
+		A66DB8591821D9E10083DEF3 /* greenFighterLeftAlien@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A66DB8291821D9E10083DEF3 /* greenFighterLeftAlien@2x.png */; };
+		A66DB85A1821D9E10083DEF3 /* greenFighterRightAlien.png in Resources */ = {isa = PBXBuildFile; fileRef = A66DB82A1821D9E10083DEF3 /* greenFighterRightAlien.png */; };
+		A66DB85B1821D9E10083DEF3 /* greenFighterRightAlien@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A66DB82B1821D9E10083DEF3 /* greenFighterRightAlien@2x.png */; };
+		A66DB85C1821D9E10083DEF3 /* orangeJuggernautAlien.png in Resources */ = {isa = PBXBuildFile; fileRef = A66DB82C1821D9E10083DEF3 /* orangeJuggernautAlien.png */; };
+		A66DB85D1821D9E10083DEF3 /* orangeJuggernautAlien@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A66DB82D1821D9E10083DEF3 /* orangeJuggernautAlien@2x.png */; };
+		A66DB85E1821D9E10083DEF3 /* orangeJuggernautLeftAlien.png in Resources */ = {isa = PBXBuildFile; fileRef = A66DB82E1821D9E10083DEF3 /* orangeJuggernautLeftAlien.png */; };
+		A66DB85F1821D9E10083DEF3 /* orangeJuggernautLeftAlien@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A66DB82F1821D9E10083DEF3 /* orangeJuggernautLeftAlien@2x.png */; };
+		A66DB8601821D9E10083DEF3 /* orangeJuggernautRightAlien.png in Resources */ = {isa = PBXBuildFile; fileRef = A66DB8301821D9E10083DEF3 /* orangeJuggernautRightAlien.png */; };
+		A66DB8611821D9E10083DEF3 /* orangeJuggernautRightAlien@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A66DB8311821D9E10083DEF3 /* orangeJuggernautRightAlien@2x.png */; };
+		A66DB8621821D9E10083DEF3 /* redBomberAlien.png in Resources */ = {isa = PBXBuildFile; fileRef = A66DB8321821D9E10083DEF3 /* redBomberAlien.png */; };
+		A66DB8631821D9E10083DEF3 /* redBomberAlien@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A66DB8331821D9E10083DEF3 /* redBomberAlien@2x.png */; };
+		A66DB8641821D9E10083DEF3 /* redBomberLeftAlien.png in Resources */ = {isa = PBXBuildFile; fileRef = A66DB8341821D9E10083DEF3 /* redBomberLeftAlien.png */; };
+		A66DB8651821D9E10083DEF3 /* redBomberLeftAlien@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A66DB8351821D9E10083DEF3 /* redBomberLeftAlien@2x.png */; };
+		A66DB8661821D9E10083DEF3 /* redBomberRightAlien.png in Resources */ = {isa = PBXBuildFile; fileRef = A66DB8361821D9E10083DEF3 /* redBomberRightAlien.png */; };
+		A66DB8671821D9E10083DEF3 /* redBomberRightAlien@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A66DB8371821D9E10083DEF3 /* redBomberRightAlien@2x.png */; };
+		A66DB8681821D9E10083DEF3 /* redFighterAlien.png in Resources */ = {isa = PBXBuildFile; fileRef = A66DB8381821D9E10083DEF3 /* redFighterAlien.png */; };
+		A66DB8691821D9E10083DEF3 /* redFighterAlien@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A66DB8391821D9E10083DEF3 /* redFighterAlien@2x.png */; };
+		A66DB86A1821D9E10083DEF3 /* redFighterLeftAlien.png in Resources */ = {isa = PBXBuildFile; fileRef = A66DB83A1821D9E10083DEF3 /* redFighterLeftAlien.png */; };
+		A66DB86B1821D9E10083DEF3 /* redFighterLeftAlien@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A66DB83B1821D9E10083DEF3 /* redFighterLeftAlien@2x.png */; };
+		A66DB86C1821D9E10083DEF3 /* redFighterRightAlien.png in Resources */ = {isa = PBXBuildFile; fileRef = A66DB83C1821D9E10083DEF3 /* redFighterRightAlien.png */; };
+		A66DB86D1821D9E10083DEF3 /* redFighterRightAlien@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A66DB83D1821D9E10083DEF3 /* redFighterRightAlien@2x.png */; };
+		A66DB86E1821D9E10083DEF3 /* violetInterceptorAlien.png in Resources */ = {isa = PBXBuildFile; fileRef = A66DB83E1821D9E10083DEF3 /* violetInterceptorAlien.png */; };
+		A66DB86F1821D9E10083DEF3 /* violetInterceptorAlien@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A66DB83F1821D9E10083DEF3 /* violetInterceptorAlien@2x.png */; };
+		A66DB8701821D9E10083DEF3 /* violetInterceptorLeftAlien.png in Resources */ = {isa = PBXBuildFile; fileRef = A66DB8401821D9E10083DEF3 /* violetInterceptorLeftAlien.png */; };
+		A66DB8711821D9E10083DEF3 /* violetInterceptorLeftAlien@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A66DB8411821D9E10083DEF3 /* violetInterceptorLeftAlien@2x.png */; };
+		A66DB8721821D9E10083DEF3 /* violetInterceptorRightAlien.png in Resources */ = {isa = PBXBuildFile; fileRef = A66DB8421821D9E10083DEF3 /* violetInterceptorRightAlien.png */; };
+		A66DB8731821D9E10083DEF3 /* violetInterceptorRightAlien@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A66DB8431821D9E10083DEF3 /* violetInterceptorRightAlien@2x.png */; };
+		A66DB8741821D9E10083DEF3 /* yellowInterceptorAlien.png in Resources */ = {isa = PBXBuildFile; fileRef = A66DB8441821D9E10083DEF3 /* yellowInterceptorAlien.png */; };
+		A66DB8751821D9E10083DEF3 /* yellowInterceptorAlien@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A66DB8451821D9E10083DEF3 /* yellowInterceptorAlien@2x.png */; };
+		A66DB8761821D9E10083DEF3 /* yellowInterceptorLeftAlien.png in Resources */ = {isa = PBXBuildFile; fileRef = A66DB8461821D9E10083DEF3 /* yellowInterceptorLeftAlien.png */; };
+		A66DB8771821D9E10083DEF3 /* yellowInterceptorLeftAlien@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A66DB8471821D9E10083DEF3 /* yellowInterceptorLeftAlien@2x.png */; };
+		A66DB8781821D9E10083DEF3 /* yellowInterceptorRightAlien.png in Resources */ = {isa = PBXBuildFile; fileRef = A66DB8481821D9E10083DEF3 /* yellowInterceptorRightAlien.png */; };
+		A66DB8791821D9E10083DEF3 /* yellowInterceptorRightAlien@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A66DB8491821D9E10083DEF3 /* yellowInterceptorRightAlien@2x.png */; };
+		A66DB87A1821D9E10083DEF3 /* yellowJuggernautAlien.png in Resources */ = {isa = PBXBuildFile; fileRef = A66DB84A1821D9E10083DEF3 /* yellowJuggernautAlien.png */; };
+		A66DB87B1821D9E10083DEF3 /* yellowJuggernautAlien@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A66DB84B1821D9E10083DEF3 /* yellowJuggernautAlien@2x.png */; };
+		A66DB87C1821D9E10083DEF3 /* yellowJuggernautLeftAlien.png in Resources */ = {isa = PBXBuildFile; fileRef = A66DB84C1821D9E10083DEF3 /* yellowJuggernautLeftAlien.png */; };
+		A66DB87D1821D9E10083DEF3 /* yellowJuggernautLeftAlien@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A66DB84D1821D9E10083DEF3 /* yellowJuggernautLeftAlien@2x.png */; };
+		A66DB87E1821D9E10083DEF3 /* yellowJuggernautRightAlien.png in Resources */ = {isa = PBXBuildFile; fileRef = A66DB84E1821D9E10083DEF3 /* yellowJuggernautRightAlien.png */; };
+		A66DB87F1821D9E10083DEF3 /* yellowJuggernautRightAlien@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A66DB84F1821D9E10083DEF3 /* yellowJuggernautRightAlien@2x.png */; };
+		A66DB8821821DAB20083DEF3 /* Alien.m in Sources */ = {isa = PBXBuildFile; fileRef = A66DB8811821DAB20083DEF3 /* Alien.m */; };
+		A66DB8851821DAF00083DEF3 /* AlienService.m in Sources */ = {isa = PBXBuildFile; fileRef = A66DB8841821DAF00083DEF3 /* AlienService.m */; };
+		A66DB8881821DDCE0083DEF3 /* GameLogicService.m in Sources */ = {isa = PBXBuildFile; fileRef = A66DB8871821DDCE0083DEF3 /* GameLogicService.m */; };
+		A66DB88C1821DF1C0083DEF3 /* SPConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = A66DB88B1821DF1C0083DEF3 /* SPConstants.m */; };
 		A6AFF3C6181F7BF5004CD462 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6AFF3C5181F7BF5004CD462 /* Foundation.framework */; };
 		A6AFF3C8181F7BF5004CD462 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6AFF3C7181F7BF5004CD462 /* CoreGraphics.framework */; };
 		A6AFF3CA181F7BF5004CD462 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6AFF3C9181F7BF5004CD462 /* UIKit.framework */; };
@@ -55,6 +107,62 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A66DB8201821D9E10083DEF3 /* greenBomberAlien.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = greenBomberAlien.png; path = images/greenBomberAlien.png; sourceTree = "<group>"; };
+		A66DB8211821D9E10083DEF3 /* greenBomberAlien@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "greenBomberAlien@2x.png"; path = "images/greenBomberAlien@2x.png"; sourceTree = "<group>"; };
+		A66DB8221821D9E10083DEF3 /* greenBomberLeftAlien.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = greenBomberLeftAlien.png; path = images/greenBomberLeftAlien.png; sourceTree = "<group>"; };
+		A66DB8231821D9E10083DEF3 /* greenBomberLeftAlien@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "greenBomberLeftAlien@2x.png"; path = "images/greenBomberLeftAlien@2x.png"; sourceTree = "<group>"; };
+		A66DB8241821D9E10083DEF3 /* greenBomberRightAlien.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = greenBomberRightAlien.png; path = images/greenBomberRightAlien.png; sourceTree = "<group>"; };
+		A66DB8251821D9E10083DEF3 /* greenBomberRightAlien@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "greenBomberRightAlien@2x.png"; path = "images/greenBomberRightAlien@2x.png"; sourceTree = "<group>"; };
+		A66DB8261821D9E10083DEF3 /* greenFighterAlien.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = greenFighterAlien.png; path = images/greenFighterAlien.png; sourceTree = "<group>"; };
+		A66DB8271821D9E10083DEF3 /* greenFighterAlien@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "greenFighterAlien@2x.png"; path = "images/greenFighterAlien@2x.png"; sourceTree = "<group>"; };
+		A66DB8281821D9E10083DEF3 /* greenFighterLeftAlien.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = greenFighterLeftAlien.png; path = images/greenFighterLeftAlien.png; sourceTree = "<group>"; };
+		A66DB8291821D9E10083DEF3 /* greenFighterLeftAlien@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "greenFighterLeftAlien@2x.png"; path = "images/greenFighterLeftAlien@2x.png"; sourceTree = "<group>"; };
+		A66DB82A1821D9E10083DEF3 /* greenFighterRightAlien.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = greenFighterRightAlien.png; path = images/greenFighterRightAlien.png; sourceTree = "<group>"; };
+		A66DB82B1821D9E10083DEF3 /* greenFighterRightAlien@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "greenFighterRightAlien@2x.png"; path = "images/greenFighterRightAlien@2x.png"; sourceTree = "<group>"; };
+		A66DB82C1821D9E10083DEF3 /* orangeJuggernautAlien.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = orangeJuggernautAlien.png; path = images/orangeJuggernautAlien.png; sourceTree = "<group>"; };
+		A66DB82D1821D9E10083DEF3 /* orangeJuggernautAlien@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "orangeJuggernautAlien@2x.png"; path = "images/orangeJuggernautAlien@2x.png"; sourceTree = "<group>"; };
+		A66DB82E1821D9E10083DEF3 /* orangeJuggernautLeftAlien.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = orangeJuggernautLeftAlien.png; path = images/orangeJuggernautLeftAlien.png; sourceTree = "<group>"; };
+		A66DB82F1821D9E10083DEF3 /* orangeJuggernautLeftAlien@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "orangeJuggernautLeftAlien@2x.png"; path = "images/orangeJuggernautLeftAlien@2x.png"; sourceTree = "<group>"; };
+		A66DB8301821D9E10083DEF3 /* orangeJuggernautRightAlien.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = orangeJuggernautRightAlien.png; path = images/orangeJuggernautRightAlien.png; sourceTree = "<group>"; };
+		A66DB8311821D9E10083DEF3 /* orangeJuggernautRightAlien@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "orangeJuggernautRightAlien@2x.png"; path = "images/orangeJuggernautRightAlien@2x.png"; sourceTree = "<group>"; };
+		A66DB8321821D9E10083DEF3 /* redBomberAlien.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = redBomberAlien.png; path = images/redBomberAlien.png; sourceTree = "<group>"; };
+		A66DB8331821D9E10083DEF3 /* redBomberAlien@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "redBomberAlien@2x.png"; path = "images/redBomberAlien@2x.png"; sourceTree = "<group>"; };
+		A66DB8341821D9E10083DEF3 /* redBomberLeftAlien.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = redBomberLeftAlien.png; path = images/redBomberLeftAlien.png; sourceTree = "<group>"; };
+		A66DB8351821D9E10083DEF3 /* redBomberLeftAlien@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "redBomberLeftAlien@2x.png"; path = "images/redBomberLeftAlien@2x.png"; sourceTree = "<group>"; };
+		A66DB8361821D9E10083DEF3 /* redBomberRightAlien.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = redBomberRightAlien.png; path = images/redBomberRightAlien.png; sourceTree = "<group>"; };
+		A66DB8371821D9E10083DEF3 /* redBomberRightAlien@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "redBomberRightAlien@2x.png"; path = "images/redBomberRightAlien@2x.png"; sourceTree = "<group>"; };
+		A66DB8381821D9E10083DEF3 /* redFighterAlien.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = redFighterAlien.png; path = images/redFighterAlien.png; sourceTree = "<group>"; };
+		A66DB8391821D9E10083DEF3 /* redFighterAlien@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "redFighterAlien@2x.png"; path = "images/redFighterAlien@2x.png"; sourceTree = "<group>"; };
+		A66DB83A1821D9E10083DEF3 /* redFighterLeftAlien.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = redFighterLeftAlien.png; path = images/redFighterLeftAlien.png; sourceTree = "<group>"; };
+		A66DB83B1821D9E10083DEF3 /* redFighterLeftAlien@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "redFighterLeftAlien@2x.png"; path = "images/redFighterLeftAlien@2x.png"; sourceTree = "<group>"; };
+		A66DB83C1821D9E10083DEF3 /* redFighterRightAlien.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = redFighterRightAlien.png; path = images/redFighterRightAlien.png; sourceTree = "<group>"; };
+		A66DB83D1821D9E10083DEF3 /* redFighterRightAlien@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "redFighterRightAlien@2x.png"; path = "images/redFighterRightAlien@2x.png"; sourceTree = "<group>"; };
+		A66DB83E1821D9E10083DEF3 /* violetInterceptorAlien.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = violetInterceptorAlien.png; path = images/violetInterceptorAlien.png; sourceTree = "<group>"; };
+		A66DB83F1821D9E10083DEF3 /* violetInterceptorAlien@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "violetInterceptorAlien@2x.png"; path = "images/violetInterceptorAlien@2x.png"; sourceTree = "<group>"; };
+		A66DB8401821D9E10083DEF3 /* violetInterceptorLeftAlien.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = violetInterceptorLeftAlien.png; path = images/violetInterceptorLeftAlien.png; sourceTree = "<group>"; };
+		A66DB8411821D9E10083DEF3 /* violetInterceptorLeftAlien@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "violetInterceptorLeftAlien@2x.png"; path = "images/violetInterceptorLeftAlien@2x.png"; sourceTree = "<group>"; };
+		A66DB8421821D9E10083DEF3 /* violetInterceptorRightAlien.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = violetInterceptorRightAlien.png; path = images/violetInterceptorRightAlien.png; sourceTree = "<group>"; };
+		A66DB8431821D9E10083DEF3 /* violetInterceptorRightAlien@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "violetInterceptorRightAlien@2x.png"; path = "images/violetInterceptorRightAlien@2x.png"; sourceTree = "<group>"; };
+		A66DB8441821D9E10083DEF3 /* yellowInterceptorAlien.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = yellowInterceptorAlien.png; path = images/yellowInterceptorAlien.png; sourceTree = "<group>"; };
+		A66DB8451821D9E10083DEF3 /* yellowInterceptorAlien@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "yellowInterceptorAlien@2x.png"; path = "images/yellowInterceptorAlien@2x.png"; sourceTree = "<group>"; };
+		A66DB8461821D9E10083DEF3 /* yellowInterceptorLeftAlien.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = yellowInterceptorLeftAlien.png; path = images/yellowInterceptorLeftAlien.png; sourceTree = "<group>"; };
+		A66DB8471821D9E10083DEF3 /* yellowInterceptorLeftAlien@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "yellowInterceptorLeftAlien@2x.png"; path = "images/yellowInterceptorLeftAlien@2x.png"; sourceTree = "<group>"; };
+		A66DB8481821D9E10083DEF3 /* yellowInterceptorRightAlien.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = yellowInterceptorRightAlien.png; path = images/yellowInterceptorRightAlien.png; sourceTree = "<group>"; };
+		A66DB8491821D9E10083DEF3 /* yellowInterceptorRightAlien@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "yellowInterceptorRightAlien@2x.png"; path = "images/yellowInterceptorRightAlien@2x.png"; sourceTree = "<group>"; };
+		A66DB84A1821D9E10083DEF3 /* yellowJuggernautAlien.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = yellowJuggernautAlien.png; path = images/yellowJuggernautAlien.png; sourceTree = "<group>"; };
+		A66DB84B1821D9E10083DEF3 /* yellowJuggernautAlien@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "yellowJuggernautAlien@2x.png"; path = "images/yellowJuggernautAlien@2x.png"; sourceTree = "<group>"; };
+		A66DB84C1821D9E10083DEF3 /* yellowJuggernautLeftAlien.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = yellowJuggernautLeftAlien.png; path = images/yellowJuggernautLeftAlien.png; sourceTree = "<group>"; };
+		A66DB84D1821D9E10083DEF3 /* yellowJuggernautLeftAlien@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "yellowJuggernautLeftAlien@2x.png"; path = "images/yellowJuggernautLeftAlien@2x.png"; sourceTree = "<group>"; };
+		A66DB84E1821D9E10083DEF3 /* yellowJuggernautRightAlien.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = yellowJuggernautRightAlien.png; path = images/yellowJuggernautRightAlien.png; sourceTree = "<group>"; };
+		A66DB84F1821D9E10083DEF3 /* yellowJuggernautRightAlien@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "yellowJuggernautRightAlien@2x.png"; path = "images/yellowJuggernautRightAlien@2x.png"; sourceTree = "<group>"; };
+		A66DB8801821DAB20083DEF3 /* Alien.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Alien.h; path = DomainObjects/Alien.h; sourceTree = "<group>"; };
+		A66DB8811821DAB20083DEF3 /* Alien.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Alien.m; path = DomainObjects/Alien.m; sourceTree = "<group>"; };
+		A66DB8831821DAF00083DEF3 /* AlienService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AlienService.h; path = Services/AlienService.h; sourceTree = "<group>"; };
+		A66DB8841821DAF00083DEF3 /* AlienService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AlienService.m; path = Services/AlienService.m; sourceTree = "<group>"; };
+		A66DB8861821DDCE0083DEF3 /* GameLogicService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameLogicService.h; path = Services/GameLogicService.h; sourceTree = "<group>"; };
+		A66DB8871821DDCE0083DEF3 /* GameLogicService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameLogicService.m; path = Services/GameLogicService.m; sourceTree = "<group>"; };
+		A66DB88A1821DF1C0083DEF3 /* SPConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SPConstants.h; path = Utility/SPConstants.h; sourceTree = "<group>"; };
+		A66DB88B1821DF1C0083DEF3 /* SPConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SPConstants.m; path = Utility/SPConstants.m; sourceTree = "<group>"; };
 		A6AFF3C2181F7BF5004CD462 /* Space.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Space.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6AFF3C5181F7BF5004CD462 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A6AFF3C7181F7BF5004CD462 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -132,6 +240,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A66DB8891821DEC00083DEF3 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				A66DB88A1821DF1C0083DEF3 /* SPConstants.h */,
+				A66DB88B1821DF1C0083DEF3 /* SPConstants.m */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
 		A6AFF3B9181F7BF5004CD462 = {
 			isa = PBXGroup;
 			children = (
@@ -166,6 +283,7 @@
 		A6AFF3CD181F7BF5004CD462 /* Space */ = {
 			isa = PBXGroup;
 			children = (
+				A66DB8891821DEC00083DEF3 /* Utility */,
 				A6E113941820E69B00847F33 /* Categories */,
 				A6E113811820D5DD00847F33 /* DomainObjects */,
 				A6E1137A1820D4A400847F33 /* Services */,
@@ -215,6 +333,54 @@
 		A6AFF403181F8049004CD462 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				A66DB8201821D9E10083DEF3 /* greenBomberAlien.png */,
+				A66DB8211821D9E10083DEF3 /* greenBomberAlien@2x.png */,
+				A66DB8221821D9E10083DEF3 /* greenBomberLeftAlien.png */,
+				A66DB8231821D9E10083DEF3 /* greenBomberLeftAlien@2x.png */,
+				A66DB8241821D9E10083DEF3 /* greenBomberRightAlien.png */,
+				A66DB8251821D9E10083DEF3 /* greenBomberRightAlien@2x.png */,
+				A66DB8261821D9E10083DEF3 /* greenFighterAlien.png */,
+				A66DB8271821D9E10083DEF3 /* greenFighterAlien@2x.png */,
+				A66DB8281821D9E10083DEF3 /* greenFighterLeftAlien.png */,
+				A66DB8291821D9E10083DEF3 /* greenFighterLeftAlien@2x.png */,
+				A66DB82A1821D9E10083DEF3 /* greenFighterRightAlien.png */,
+				A66DB82B1821D9E10083DEF3 /* greenFighterRightAlien@2x.png */,
+				A66DB82C1821D9E10083DEF3 /* orangeJuggernautAlien.png */,
+				A66DB82D1821D9E10083DEF3 /* orangeJuggernautAlien@2x.png */,
+				A66DB82E1821D9E10083DEF3 /* orangeJuggernautLeftAlien.png */,
+				A66DB82F1821D9E10083DEF3 /* orangeJuggernautLeftAlien@2x.png */,
+				A66DB8301821D9E10083DEF3 /* orangeJuggernautRightAlien.png */,
+				A66DB8311821D9E10083DEF3 /* orangeJuggernautRightAlien@2x.png */,
+				A66DB8321821D9E10083DEF3 /* redBomberAlien.png */,
+				A66DB8331821D9E10083DEF3 /* redBomberAlien@2x.png */,
+				A66DB8341821D9E10083DEF3 /* redBomberLeftAlien.png */,
+				A66DB8351821D9E10083DEF3 /* redBomberLeftAlien@2x.png */,
+				A66DB8361821D9E10083DEF3 /* redBomberRightAlien.png */,
+				A66DB8371821D9E10083DEF3 /* redBomberRightAlien@2x.png */,
+				A66DB8381821D9E10083DEF3 /* redFighterAlien.png */,
+				A66DB8391821D9E10083DEF3 /* redFighterAlien@2x.png */,
+				A66DB83A1821D9E10083DEF3 /* redFighterLeftAlien.png */,
+				A66DB83B1821D9E10083DEF3 /* redFighterLeftAlien@2x.png */,
+				A66DB83C1821D9E10083DEF3 /* redFighterRightAlien.png */,
+				A66DB83D1821D9E10083DEF3 /* redFighterRightAlien@2x.png */,
+				A66DB83E1821D9E10083DEF3 /* violetInterceptorAlien.png */,
+				A66DB83F1821D9E10083DEF3 /* violetInterceptorAlien@2x.png */,
+				A66DB8401821D9E10083DEF3 /* violetInterceptorLeftAlien.png */,
+				A66DB8411821D9E10083DEF3 /* violetInterceptorLeftAlien@2x.png */,
+				A66DB8421821D9E10083DEF3 /* violetInterceptorRightAlien.png */,
+				A66DB8431821D9E10083DEF3 /* violetInterceptorRightAlien@2x.png */,
+				A66DB8441821D9E10083DEF3 /* yellowInterceptorAlien.png */,
+				A66DB8451821D9E10083DEF3 /* yellowInterceptorAlien@2x.png */,
+				A66DB8461821D9E10083DEF3 /* yellowInterceptorLeftAlien.png */,
+				A66DB8471821D9E10083DEF3 /* yellowInterceptorLeftAlien@2x.png */,
+				A66DB8481821D9E10083DEF3 /* yellowInterceptorRightAlien.png */,
+				A66DB8491821D9E10083DEF3 /* yellowInterceptorRightAlien@2x.png */,
+				A66DB84A1821D9E10083DEF3 /* yellowJuggernautAlien.png */,
+				A66DB84B1821D9E10083DEF3 /* yellowJuggernautAlien@2x.png */,
+				A66DB84C1821D9E10083DEF3 /* yellowJuggernautLeftAlien.png */,
+				A66DB84D1821D9E10083DEF3 /* yellowJuggernautLeftAlien@2x.png */,
+				A66DB84E1821D9E10083DEF3 /* yellowJuggernautRightAlien.png */,
+				A66DB84F1821D9E10083DEF3 /* yellowJuggernautRightAlien@2x.png */,
 				A6E1139E1820E96C00847F33 /* spaceBackground.jpg */,
 				A6E1139F1820E96C00847F33 /* spaceBackground@2x.jpg */,
 				A6E113741820D43300847F33 /* playerShot.png */,
@@ -240,6 +406,10 @@
 				A6E1138C1820D97600847F33 /* PlayerService.m */,
 				A6E1138E1820E2FC00847F33 /* BackgroundService.h */,
 				A6E1138F1820E2FC00847F33 /* BackgroundService.m */,
+				A66DB8831821DAF00083DEF3 /* AlienService.h */,
+				A66DB8841821DAF00083DEF3 /* AlienService.m */,
+				A66DB8861821DDCE0083DEF3 /* GameLogicService.h */,
+				A66DB8871821DDCE0083DEF3 /* GameLogicService.m */,
 			);
 			name = Services;
 			sourceTree = "<group>";
@@ -255,6 +425,8 @@
 				A6E113891820D72500847F33 /* Player.m */,
 				A6E113911820E31E00847F33 /* Background.h */,
 				A6E113921820E31E00847F33 /* Background.m */,
+				A66DB8801821DAB20083DEF3 /* Alien.h */,
+				A66DB8811821DAB20083DEF3 /* Alien.m */,
 			);
 			name = DomainObjects;
 			sourceTree = "<group>";
@@ -344,19 +516,67 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A66DB86C1821D9E10083DEF3 /* redFighterRightAlien.png in Resources */,
+				A66DB8621821D9E10083DEF3 /* redBomberAlien.png in Resources */,
+				A66DB87C1821D9E10083DEF3 /* yellowJuggernautLeftAlien.png in Resources */,
+				A66DB85E1821D9E10083DEF3 /* orangeJuggernautLeftAlien.png in Resources */,
 				A6AFF3D2181F7BF5004CD462 /* InfoPlist.strings in Resources */,
 				A6AFF40C181F81AC004CD462 /* playerShip.png in Resources */,
+				A66DB8581821D9E10083DEF3 /* greenFighterLeftAlien.png in Resources */,
+				A66DB8631821D9E10083DEF3 /* redBomberAlien@2x.png in Resources */,
+				A66DB8701821D9E10083DEF3 /* violetInterceptorLeftAlien.png in Resources */,
+				A66DB85C1821D9E10083DEF3 /* orangeJuggernautAlien.png in Resources */,
+				A66DB8501821D9E10083DEF3 /* greenBomberAlien.png in Resources */,
 				A6AFF40D181F81AC004CD462 /* playerShip@2x.png in Resources */,
+				A66DB87E1821D9E10083DEF3 /* yellowJuggernautRightAlien.png in Resources */,
+				A66DB85F1821D9E10083DEF3 /* orangeJuggernautLeftAlien@2x.png in Resources */,
+				A66DB8791821D9E10083DEF3 /* yellowInterceptorRightAlien@2x.png in Resources */,
+				A66DB87D1821D9E10083DEF3 /* yellowJuggernautLeftAlien@2x.png in Resources */,
+				A66DB8761821D9E10083DEF3 /* yellowInterceptorLeftAlien.png in Resources */,
+				A66DB8551821D9E10083DEF3 /* greenBomberRightAlien@2x.png in Resources */,
+				A66DB8751821D9E10083DEF3 /* yellowInterceptorAlien@2x.png in Resources */,
+				A66DB85B1821D9E10083DEF3 /* greenFighterRightAlien@2x.png in Resources */,
+				A66DB8781821D9E10083DEF3 /* yellowInterceptorRightAlien.png in Resources */,
+				A66DB8671821D9E10083DEF3 /* redBomberRightAlien@2x.png in Resources */,
+				A66DB8711821D9E10083DEF3 /* violetInterceptorLeftAlien@2x.png in Resources */,
+				A66DB8571821D9E10083DEF3 /* greenFighterAlien@2x.png in Resources */,
 				A6AFF40E181F81AC004CD462 /* playerShipGoLeft.png in Resources */,
+				A66DB8541821D9E10083DEF3 /* greenBomberRightAlien.png in Resources */,
+				A66DB8741821D9E10083DEF3 /* yellowInterceptorAlien.png in Resources */,
+				A66DB8561821D9E10083DEF3 /* greenFighterAlien.png in Resources */,
 				A6E113771820D43300847F33 /* playerShot.png in Resources */,
 				A6AFF3E5181F7BF5004CD462 /* Images.xcassets in Resources */,
+				A66DB86E1821D9E10083DEF3 /* violetInterceptorAlien.png in Resources */,
+				A66DB86F1821D9E10083DEF3 /* violetInterceptorAlien@2x.png in Resources */,
+				A66DB8691821D9E10083DEF3 /* redFighterAlien@2x.png in Resources */,
+				A66DB85D1821D9E10083DEF3 /* orangeJuggernautAlien@2x.png in Resources */,
+				A66DB8531821D9E10083DEF3 /* greenBomberLeftAlien@2x.png in Resources */,
+				A66DB8521821D9E10083DEF3 /* greenBomberLeftAlien.png in Resources */,
 				A6AFF40F181F81AC004CD462 /* playerShipGoLeft@2x.png in Resources */,
+				A66DB8731821D9E10083DEF3 /* violetInterceptorRightAlien@2x.png in Resources */,
 				A6E113A11820E96C00847F33 /* spaceBackground@2x.jpg in Resources */,
 				A6AFF410181F81AC004CD462 /* playerShipGoRight.png in Resources */,
+				A66DB87F1821D9E10083DEF3 /* yellowJuggernautRightAlien@2x.png in Resources */,
+				A66DB86A1821D9E10083DEF3 /* redFighterLeftAlien.png in Resources */,
+				A66DB8651821D9E10083DEF3 /* redBomberLeftAlien@2x.png in Resources */,
 				A6E113781820D43300847F33 /* playerShot@2x.png in Resources */,
+				A66DB8511821D9E10083DEF3 /* greenBomberAlien@2x.png in Resources */,
+				A66DB8601821D9E10083DEF3 /* orangeJuggernautRightAlien.png in Resources */,
+				A66DB8611821D9E10083DEF3 /* orangeJuggernautRightAlien@2x.png in Resources */,
+				A66DB86D1821D9E10083DEF3 /* redFighterRightAlien@2x.png in Resources */,
+				A66DB8591821D9E10083DEF3 /* greenFighterLeftAlien@2x.png in Resources */,
 				A6AFF411181F81AC004CD462 /* playerShipGoRight@2x.png in Resources */,
 				A6E113A01820E96C00847F33 /* spaceBackground.jpg in Resources */,
+				A66DB8681821D9E10083DEF3 /* redFighterAlien.png in Resources */,
+				A66DB85A1821D9E10083DEF3 /* greenFighterRightAlien.png in Resources */,
+				A66DB8721821D9E10083DEF3 /* violetInterceptorRightAlien.png in Resources */,
 				A6AFF3DB181F7BF5004CD462 /* Main.storyboard in Resources */,
+				A66DB86B1821D9E10083DEF3 /* redFighterLeftAlien@2x.png in Resources */,
+				A66DB8641821D9E10083DEF3 /* redBomberLeftAlien.png in Resources */,
+				A66DB87A1821D9E10083DEF3 /* yellowJuggernautAlien.png in Resources */,
+				A66DB8771821D9E10083DEF3 /* yellowInterceptorLeftAlien@2x.png in Resources */,
+				A66DB8661821D9E10083DEF3 /* redBomberRightAlien.png in Resources */,
+				A66DB87B1821D9E10083DEF3 /* yellowJuggernautAlien@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,14 +596,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6AFF3E1181F7BF5004CD462 /* MyScene.m in Sources */,
+				A66DB8851821DAF00083DEF3 /* AlienService.m in Sources */,
 				A6E113871820D62600847F33 /* Laser.m in Sources */,
 				A6AFF3DE181F7BF5004CD462 /* GameViewController.m in Sources */,
 				A6E1137D1820D4BE00847F33 /* ServiceBase.m in Sources */,
 				A6E1139D1820E6FC00847F33 /* UIScreen+ScreenSize.m in Sources */,
+				A66DB8881821DDCE0083DEF3 /* GameLogicService.m in Sources */,
 				A6E1138D1820D97600847F33 /* PlayerService.m in Sources */,
 				A6E113841820D61000847F33 /* DomainObjectBase.m in Sources */,
 				A6AFF3D8181F7BF5004CD462 /* AppDelegate.m in Sources */,
 				A6E113931820E31E00847F33 /* Background.m in Sources */,
+				A66DB8821821DAB20083DEF3 /* Alien.m in Sources */,
+				A66DB88C1821DF1C0083DEF3 /* SPConstants.m in Sources */,
 				A6AFF3D4181F7BF5004CD462 /* main.m in Sources */,
 				A6E1138A1820D72500847F33 /* Player.m in Sources */,
 				A6E113801820D51700847F33 /* LaserService.m in Sources */,

@@ -7,15 +7,14 @@
 //
 
 #import "MyScene.h"
+#import "BackgroundService.h"
 #import "LaserService.h"
 #import "PlayerService.h"
-#import "BackgroundService.h"
+#import "AlienService.h"
+#import "GameLogicService.h"
+#import "SPConstants.h"
 
 @interface MyScene ()
-
-@property (nonatomic) LaserService *laserService;
-@property (nonatomic) PlayerService *playerService;
-@property (nonatomic) BackgroundService *backgroundService;
 
 @property (nonatomic) CFTimeInterval previousTime;
 
@@ -23,18 +22,21 @@
 
 @implementation MyScene
 
-- (id)initWithSize:(CGSize)size
+- (void)alienSpawned:(NSNotification *)notification
 {
-    if (self = [super initWithSize:size]) {
-        self.backgroundService = [BackgroundService sharedService];
-        self.laserService = [LaserService sharedService];
-        self.playerService = [PlayerService sharedService];
-        
-        [self addChild:self.backgroundService.background.sprite];
-        
-        [self addChild:self.playerService.player.sprite];
+    if ([notification.object isKindOfClass:[SKSpriteNode class]]) {
+        [self addChild:notification.object];
+    } else {
+        NSLog(@"%@", notification.object);
     }
-    return self;
+}
+
+- (void)registerNotificationsObservers
+{
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(alienSpawned:)
+                                                 name:SPAlienSpawned
+                                               object:nil];
 }
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
@@ -48,9 +50,27 @@
 {
     CFTimeInterval dt = currentTime - self.previousTime;
     
-    [self.laserService update:dt];
+    [[GameLogicService sharedService] update:dt];
     
     self.previousTime = currentTime;
+}
+
+- (void)initSceneWithSprites
+{
+    [self addChild:[BackgroundService sharedService].background.sprite];
+    [self addChild:[PlayerService sharedService].player.sprite];
+}
+
+- (id)initWithSize:(CGSize)size
+{
+    self = [super initWithSize:size];
+    
+    if (self) {
+        [self initSceneWithSprites];
+        [self registerNotificationsObservers];
+    }
+    
+    return self;
 }
 
 @end

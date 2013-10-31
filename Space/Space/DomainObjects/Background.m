@@ -16,7 +16,7 @@
 {
     SKSpriteNode *backgroundSprite;
     SKTexture *textureImage;
-    textureImage = [SKTexture textureWithImageNamed:@"spaceBackground"];
+    textureImage = [SKTexture textureWithImageNamed:@"spaceBackground.jpg"];
     backgroundSprite = [SKSpriteNode spriteNodeWithTexture:textureImage];
     backgroundSprite.position = CGPointMake([UIScreen width] / 2, [UIScreen height] / 2);
     
