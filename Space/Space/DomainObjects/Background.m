@@ -27,6 +27,7 @@
 {
     if (!_sprite) {
         _sprite = [self createBackground];
+        _sprite.blendMode = SKBlendModeReplace;
     }
     return _sprite;
 }

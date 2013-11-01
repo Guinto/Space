@@ -54,7 +54,7 @@
     if ([notification.object isKindOfClass:[SKSpriteNode class]]) {
         [self addChild:notification.object];
     } else {
-        NSAssert(0, @"Should be a sprite");
+        NSLog(@"Spawned should be a sprite not %@", notification.object);
     }
 }
 
@@ -63,7 +63,7 @@
     if ([notification.object isKindOfClass:[SKSpriteNode class]]) {
         [self removeChildrenInArray:@[notification.object]];
     } else {
-        NSAssert(0, @"Should be a sprite");
+        NSLog(@"Destroyed should be a sprite not %@", notification);
     }
 }
 

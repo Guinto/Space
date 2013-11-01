@@ -12,6 +12,7 @@
 
 #define MOVEMENT_AXIS_MODIFIER 12
 #define OFF_SCREEN_PADDING 10
+#define EXTREME_MOVEMENT 4
 
 @interface PlayerService ()
 
@@ -23,10 +24,23 @@
 {
     self.player.sprite.position = CGPointMake(self.player.sprite.position.x + moveAmount, self.player.sprite.position.y);
     
-    if (self.player.sprite.position.x < -OFF_SCREEN_PADDING) {
+    if (self.player.sprite.position.x < -self.player.sprite.frame.size.width) {
         self.player.sprite.position = CGPointMake([UIScreen width] + OFF_SCREEN_PADDING, self.player.sprite.position.y);
     } else if (self.player.sprite.position.x > [UIScreen width] + OFF_SCREEN_PADDING) {
         self.player.sprite.position = CGPointMake(-OFF_SCREEN_PADDING, self.player.sprite.position.y);
+    }
+    
+    [self orientShipBasedOnMovement:moveAmount];
+}
+
+- (void)orientShipBasedOnMovement:(float)moveAmount
+{
+    if (moveAmount > EXTREME_MOVEMENT) {
+        [self.player leanRight];
+    } else if (moveAmount < -EXTREME_MOVEMENT) {
+        [self.player leanLeft];
+    } else if (moveAmount < 1 && moveAmount > -1) {
+        [self.player stablize];
     }
 }
 

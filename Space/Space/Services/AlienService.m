@@ -11,6 +11,7 @@
 #import "UIScreen+ScreenSize.h"
 
 #define TIME_MODIFIER 100
+#define OFF_SIDE_SCREEN_PADDING 10
 #define OFF_TOP_OF_SCREEN [UIScreen height] + 20
 
 @interface AlienService ()
@@ -21,7 +22,7 @@
 
 - (CGPoint)pointWithRandomXPositionAboveScreen
 {
-    return CGPointMake(arc4random_uniform([UIScreen width]), OFF_TOP_OF_SCREEN);
+    return CGPointMake(arc4random_uniform([UIScreen width] + OFF_SIDE_SCREEN_PADDING) - OFF_SIDE_SCREEN_PADDING, OFF_TOP_OF_SCREEN);
 }
 
 - (SKSpriteNode *)spawnAlien

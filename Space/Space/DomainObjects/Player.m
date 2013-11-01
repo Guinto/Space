@@ -19,4 +19,19 @@
     return _sprite;
 }
 
+- (void)leanLeft
+{
+    self.sprite.texture = [SKTexture textureWithImageNamed:@"playerLeftShip"];
+}
+
+- (void)leanRight
+{
+    self.sprite.texture = [SKTexture textureWithImageNamed:@"playerRightShip"];
+}
+
+- (void)stablize
+{
+    self.sprite.texture = [SKTexture textureWithImageNamed:@"playerShip"];
+}
+
 @end

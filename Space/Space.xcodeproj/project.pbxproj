@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		A6484D6C182336BF008041A7 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6484D6B182336BF008041A7 /* CoreMotion.framework */; };
+		A6484D71182346D0008041A7 /* playerLeftShip.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484D6D182346D0008041A7 /* playerLeftShip.png */; };
+		A6484D72182346D0008041A7 /* playerLeftShip@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484D6E182346D0008041A7 /* playerLeftShip@2x.png */; };
+		A6484D73182346D0008041A7 /* playerRightShip.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484D6F182346D0008041A7 /* playerRightShip.png */; };
+		A6484D74182346D0008041A7 /* playerRightShip@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484D70182346D0008041A7 /* playerRightShip@2x.png */; };
 		A66DB8501821D9E10083DEF3 /* greenBomberAlien.png in Resources */ = {isa = PBXBuildFile; fileRef = A66DB8201821D9E10083DEF3 /* greenBomberAlien.png */; };
 		A66DB8511821D9E10083DEF3 /* greenBomberAlien@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A66DB8211821D9E10083DEF3 /* greenBomberAlien@2x.png */; };
 		A66DB8521821D9E10083DEF3 /* greenBomberLeftAlien.png in Resources */ = {isa = PBXBuildFile; fileRef = A66DB8221821D9E10083DEF3 /* greenBomberLeftAlien.png */; };
@@ -79,10 +83,6 @@
 		A6AFF3F8181F7BF5004CD462 /* SpaceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6AFF3F7181F7BF5004CD462 /* SpaceTests.m */; };
 		A6AFF40C181F81AC004CD462 /* playerShip.png in Resources */ = {isa = PBXBuildFile; fileRef = A6AFF406181F81AC004CD462 /* playerShip.png */; };
 		A6AFF40D181F81AC004CD462 /* playerShip@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6AFF407181F81AC004CD462 /* playerShip@2x.png */; };
-		A6AFF40E181F81AC004CD462 /* playerShipGoLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = A6AFF408181F81AC004CD462 /* playerShipGoLeft.png */; };
-		A6AFF40F181F81AC004CD462 /* playerShipGoLeft@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6AFF409181F81AC004CD462 /* playerShipGoLeft@2x.png */; };
-		A6AFF410181F81AC004CD462 /* playerShipGoRight.png in Resources */ = {isa = PBXBuildFile; fileRef = A6AFF40A181F81AC004CD462 /* playerShipGoRight.png */; };
-		A6AFF411181F81AC004CD462 /* playerShipGoRight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6AFF40B181F81AC004CD462 /* playerShipGoRight@2x.png */; };
 		A6E113771820D43300847F33 /* playerShot.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E113741820D43300847F33 /* playerShot.png */; };
 		A6E113781820D43300847F33 /* playerShot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E113751820D43300847F33 /* playerShot@2x.png */; };
 		A6E1137D1820D4BE00847F33 /* ServiceBase.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E1137C1820D4BE00847F33 /* ServiceBase.m */; };
@@ -110,6 +110,10 @@
 
 /* Begin PBXFileReference section */
 		A6484D6B182336BF008041A7 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		A6484D6D182346D0008041A7 /* playerLeftShip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = playerLeftShip.png; path = images/playerLeftShip.png; sourceTree = "<group>"; };
+		A6484D6E182346D0008041A7 /* playerLeftShip@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "playerLeftShip@2x.png"; path = "images/playerLeftShip@2x.png"; sourceTree = "<group>"; };
+		A6484D6F182346D0008041A7 /* playerRightShip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = playerRightShip.png; path = images/playerRightShip.png; sourceTree = "<group>"; };
+		A6484D70182346D0008041A7 /* playerRightShip@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "playerRightShip@2x.png"; path = "images/playerRightShip@2x.png"; sourceTree = "<group>"; };
 		A66DB8201821D9E10083DEF3 /* greenBomberAlien.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = greenBomberAlien.png; path = images/greenBomberAlien.png; sourceTree = "<group>"; };
 		A66DB8211821D9E10083DEF3 /* greenBomberAlien@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "greenBomberAlien@2x.png"; path = "images/greenBomberAlien@2x.png"; sourceTree = "<group>"; };
 		A66DB8221821D9E10083DEF3 /* greenBomberLeftAlien.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = greenBomberLeftAlien.png; path = images/greenBomberLeftAlien.png; sourceTree = "<group>"; };
@@ -192,10 +196,6 @@
 		A6AFF3F7181F7BF5004CD462 /* SpaceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpaceTests.m; sourceTree = "<group>"; };
 		A6AFF406181F81AC004CD462 /* playerShip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = playerShip.png; path = images/playerShip.png; sourceTree = "<group>"; };
 		A6AFF407181F81AC004CD462 /* playerShip@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "playerShip@2x.png"; path = "images/playerShip@2x.png"; sourceTree = "<group>"; };
-		A6AFF408181F81AC004CD462 /* playerShipGoLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = playerShipGoLeft.png; path = images/playerShipGoLeft.png; sourceTree = "<group>"; };
-		A6AFF409181F81AC004CD462 /* playerShipGoLeft@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "playerShipGoLeft@2x.png"; path = "images/playerShipGoLeft@2x.png"; sourceTree = "<group>"; };
-		A6AFF40A181F81AC004CD462 /* playerShipGoRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = playerShipGoRight.png; path = images/playerShipGoRight.png; sourceTree = "<group>"; };
-		A6AFF40B181F81AC004CD462 /* playerShipGoRight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "playerShipGoRight@2x.png"; path = "images/playerShipGoRight@2x.png"; sourceTree = "<group>"; };
 		A6E113741820D43300847F33 /* playerShot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = playerShot.png; path = images/playerShot.png; sourceTree = "<group>"; };
 		A6E113751820D43300847F33 /* playerShot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "playerShot@2x.png"; path = "images/playerShot@2x.png"; sourceTree = "<group>"; };
 		A6E1137B1820D4BE00847F33 /* ServiceBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ServiceBase.h; path = Services/ServiceBase.h; sourceTree = "<group>"; };
@@ -342,6 +342,10 @@
 		A6AFF403181F8049004CD462 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				A6484D6D182346D0008041A7 /* playerLeftShip.png */,
+				A6484D6E182346D0008041A7 /* playerLeftShip@2x.png */,
+				A6484D6F182346D0008041A7 /* playerRightShip.png */,
+				A6484D70182346D0008041A7 /* playerRightShip@2x.png */,
 				A66DB8201821D9E10083DEF3 /* greenBomberAlien.png */,
 				A66DB8211821D9E10083DEF3 /* greenBomberAlien@2x.png */,
 				A66DB8221821D9E10083DEF3 /* greenBomberLeftAlien.png */,
@@ -396,10 +400,6 @@
 				A6E113751820D43300847F33 /* playerShot@2x.png */,
 				A6AFF406181F81AC004CD462 /* playerShip.png */,
 				A6AFF407181F81AC004CD462 /* playerShip@2x.png */,
-				A6AFF408181F81AC004CD462 /* playerShipGoLeft.png */,
-				A6AFF409181F81AC004CD462 /* playerShipGoLeft@2x.png */,
-				A6AFF40A181F81AC004CD462 /* playerShipGoRight.png */,
-				A6AFF40B181F81AC004CD462 /* playerShipGoRight@2x.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -526,6 +526,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A66DB86C1821D9E10083DEF3 /* redFighterRightAlien.png in Resources */,
+				A6484D72182346D0008041A7 /* playerLeftShip@2x.png in Resources */,
 				A66DB8621821D9E10083DEF3 /* redBomberAlien.png in Resources */,
 				A66DB87C1821D9E10083DEF3 /* yellowJuggernautLeftAlien.png in Resources */,
 				A66DB85E1821D9E10083DEF3 /* orangeJuggernautLeftAlien.png in Resources */,
@@ -549,7 +550,6 @@
 				A66DB8671821D9E10083DEF3 /* redBomberRightAlien@2x.png in Resources */,
 				A66DB8711821D9E10083DEF3 /* violetInterceptorLeftAlien@2x.png in Resources */,
 				A66DB8571821D9E10083DEF3 /* greenFighterAlien@2x.png in Resources */,
-				A6AFF40E181F81AC004CD462 /* playerShipGoLeft.png in Resources */,
 				A66DB8541821D9E10083DEF3 /* greenBomberRightAlien.png in Resources */,
 				A66DB8741821D9E10083DEF3 /* yellowInterceptorAlien.png in Resources */,
 				A66DB8561821D9E10083DEF3 /* greenFighterAlien.png in Resources */,
@@ -561,10 +561,8 @@
 				A66DB85D1821D9E10083DEF3 /* orangeJuggernautAlien@2x.png in Resources */,
 				A66DB8531821D9E10083DEF3 /* greenBomberLeftAlien@2x.png in Resources */,
 				A66DB8521821D9E10083DEF3 /* greenBomberLeftAlien.png in Resources */,
-				A6AFF40F181F81AC004CD462 /* playerShipGoLeft@2x.png in Resources */,
 				A66DB8731821D9E10083DEF3 /* violetInterceptorRightAlien@2x.png in Resources */,
 				A6E113A11820E96C00847F33 /* spaceBackground@2x.jpg in Resources */,
-				A6AFF410181F81AC004CD462 /* playerShipGoRight.png in Resources */,
 				A66DB87F1821D9E10083DEF3 /* yellowJuggernautRightAlien@2x.png in Resources */,
 				A66DB86A1821D9E10083DEF3 /* redFighterLeftAlien.png in Resources */,
 				A66DB8651821D9E10083DEF3 /* redBomberLeftAlien@2x.png in Resources */,
@@ -572,16 +570,18 @@
 				A66DB8511821D9E10083DEF3 /* greenBomberAlien@2x.png in Resources */,
 				A66DB8601821D9E10083DEF3 /* orangeJuggernautRightAlien.png in Resources */,
 				A66DB8611821D9E10083DEF3 /* orangeJuggernautRightAlien@2x.png in Resources */,
+				A6484D73182346D0008041A7 /* playerRightShip.png in Resources */,
 				A66DB86D1821D9E10083DEF3 /* redFighterRightAlien@2x.png in Resources */,
 				A66DB8591821D9E10083DEF3 /* greenFighterLeftAlien@2x.png in Resources */,
-				A6AFF411181F81AC004CD462 /* playerShipGoRight@2x.png in Resources */,
 				A6E113A01820E96C00847F33 /* spaceBackground.jpg in Resources */,
 				A66DB8681821D9E10083DEF3 /* redFighterAlien.png in Resources */,
 				A66DB85A1821D9E10083DEF3 /* greenFighterRightAlien.png in Resources */,
 				A66DB8721821D9E10083DEF3 /* violetInterceptorRightAlien.png in Resources */,
 				A6AFF3DB181F7BF5004CD462 /* Main.storyboard in Resources */,
+				A6484D71182346D0008041A7 /* playerLeftShip.png in Resources */,
 				A66DB86B1821D9E10083DEF3 /* redFighterLeftAlien@2x.png in Resources */,
 				A66DB8641821D9E10083DEF3 /* redBomberLeftAlien.png in Resources */,
+				A6484D74182346D0008041A7 /* playerRightShip@2x.png in Resources */,
 				A66DB87A1821D9E10083DEF3 /* yellowJuggernautAlien.png in Resources */,
 				A66DB8771821D9E10083DEF3 /* yellowInterceptorLeftAlien@2x.png in Resources */,
 				A66DB8661821D9E10083DEF3 /* redBomberRightAlien.png in Resources */,

@@ -26,7 +26,7 @@
 {
     self.timeSinceAlienSpawn += dt;
     
-    if (self.timeSinceAlienSpawn > 1) {
+    if (self.timeSinceAlienSpawn > arc4random_uniform(1) + 0.5) {
         SKSpriteNode *alienSprite = [[AlienService sharedService] spawnAlien];
         self.timeSinceAlienSpawn = 0;
         [[NSNotificationCenter defaultCenter] postNotificationName:SPAlienSpawnedNotification

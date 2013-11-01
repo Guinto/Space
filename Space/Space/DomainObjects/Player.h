@@ -10,4 +10,8 @@
 
 @interface Player : DomainObjectBase
 
+- (void)leanLeft;
+- (void)leanRight;
+- (void)stablize;
+
 @end
