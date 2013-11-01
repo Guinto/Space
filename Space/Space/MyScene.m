@@ -29,8 +29,13 @@
 - (void)registerNotificationsObservers
 {
     [[NSNotificationCenter defaultCenter] addObserver:self
-                                             selector:@selector(alienSpawned:)
+                                             selector:@selector(spriteSpawned:)
                                                  name:SPAlienSpawnedNotification
+                                               object:nil];
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(spriteSpawned:)
+                                                 name:SPLaserSpawnedNotification
                                                object:nil];
     
     [[NSNotificationCenter defaultCenter] addObserver:self
@@ -49,7 +54,7 @@
                                                object:nil];
 }
 
-- (void)alienSpawned:(NSNotification *)notification
+- (void)spriteSpawned:(NSNotification *)notification
 {
     if ([notification.object isKindOfClass:[SKSpriteNode class]]) {
         [self addChild:notification.object];
@@ -72,7 +77,15 @@
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
     for (UITouch *touch in touches) {
-        [self addChild:[[LaserService sharedService] shootPlayerLaser]];
+        [[GameLogicService sharedService] prepareToFireLasers];
+        [GameLogicService sharedService].fireLasers = YES;
+    }
+}
+
+- (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
+{
+    for (UITouch *touch in touches) {
+        [GameLogicService sharedService].fireLasers = NO;
     }
 }
 

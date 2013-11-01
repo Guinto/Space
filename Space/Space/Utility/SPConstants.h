@@ -7,6 +7,7 @@
 //
 
 extern NSString * const SPAlienSpawnedNotification;
+extern NSString * const SPLaserSpawnedNotification;
 extern NSString * const SPAlienDestroyedNotification;
 extern NSString * const SPPlayerDestroyedNotification;
 extern NSString * const SPLaserDestroyedNotification;

@@ -12,9 +12,12 @@
 #import "LaserService.h"
 #import "PlayerService.h"
 
+#define LASER_SPEED 0.3
+
 @interface GameLogicService ()
 
 @property (nonatomic) CFTimeInterval timeSinceAlienSpawn;
+@property (nonatomic) CFTimeInterval timeSinceLaserShot;
 
 @end
 
@@ -31,6 +34,18 @@
         self.timeSinceAlienSpawn = 0;
         [[NSNotificationCenter defaultCenter] postNotificationName:SPAlienSpawnedNotification
                                                             object:alienSprite];
+    }
+}
+
+- (void)fireLasers:(CFTimeInterval)dt
+{
+    self.timeSinceLaserShot += dt;
+    
+    if (self.timeSinceLaserShot > LASER_SPEED) {
+        SKSpriteNode *laserSprite = [[LaserService sharedService] shootPlayerLaser];
+        self.timeSinceLaserShot = 0;
+        [[NSNotificationCenter defaultCenter] postNotificationName:SPLaserSpawnedNotification
+                                                            object:laserSprite];
     }
 }
 
@@ -94,9 +109,18 @@
 
 #pragma mark - update methods
 
+- (void)prepareToFireLasers
+{
+    self.timeSinceLaserShot = LASER_SPEED;
+}
+
 - (void)update:(CFTimeInterval)dt
 {
     [self alienSpawnLogic:dt];
+    
+    if (self.isFiringLasers) {
+        [self fireLasers:dt];
+    }
     
     [self hitTesting];
     

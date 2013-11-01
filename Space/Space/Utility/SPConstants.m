@@ -7,6 +7,7 @@
 //
 
 NSString * const SPAlienSpawnedNotification = @"SPAlienSpawnedNotification";
+NSString * const SPLaserSpawnedNotification = @"SPLaserSpawnedNotification";
 NSString * const SPAlienDestroyedNotification = @"SPAlienDestroyedNotification";
 NSString * const SPPlayerDestroyedNotification = @"SPPlayerDestroyedNotification";
 NSString * const SPLaserDestroyedNotification = @"SPLaserDestroyedNotification";

@@ -11,7 +11,9 @@
 @interface GameLogicService : ServiceBase
 
 @property (nonatomic) NSInteger *gameDifficulty;
+@property (nonatomic, getter = isFiringLasers) BOOL fireLasers;
 
+- (void)prepareToFireLasers;
 - (void)update:(CFTimeInterval)dt;
 
 + (GameLogicService *)sharedService;
