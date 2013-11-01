@@ -6,6 +6,7 @@
 //  Copyright (c) 2013 Trent Ellingsen. All rights reserved.
 //
 
+#import <CoreMotion/CoreMotion.h>
 #import "MyScene.h"
 #import "BackgroundService.h"
 #import "LaserService.h"
@@ -14,31 +15,16 @@
 #import "GameLogicService.h"
 #import "SPConstants.h"
 
-@interface MyScene ()
+@interface MyScene () <UIAccelerometerDelegate>
 
 @property (nonatomic) CFTimeInterval previousTime;
+@property (nonatomic) CMMotionManager *motionManager;
 
 @end
 
 @implementation MyScene
 
-- (void)alienSpawned:(NSNotification *)notification
-{
-    if ([notification.object isKindOfClass:[SKSpriteNode class]]) {
-        [self addChild:notification.object];
-    } else {
-        NSAssert(0, @"Should be a sprite");
-    }
-}
-
-- (void)spriteDestroyed:(NSNotification *)notification
-{
-    if ([notification.object isKindOfClass:[SKSpriteNode class]]) {
-        [self removeChildrenInArray:@[notification.object]];
-    } else {
-        NSAssert(0, @"Should be a sprite");
-    }
-}
+#pragma mark - notification methods
 
 - (void)registerNotificationsObservers
 {
@@ -63,12 +49,34 @@
                                                object:nil];
 }
 
+- (void)alienSpawned:(NSNotification *)notification
+{
+    if ([notification.object isKindOfClass:[SKSpriteNode class]]) {
+        [self addChild:notification.object];
+    } else {
+        NSAssert(0, @"Should be a sprite");
+    }
+}
+
+- (void)spriteDestroyed:(NSNotification *)notification
+{
+    if ([notification.object isKindOfClass:[SKSpriteNode class]]) {
+        [self removeChildrenInArray:@[notification.object]];
+    } else {
+        NSAssert(0, @"Should be a sprite");
+    }
+}
+
+#pragma mark - interaction methods
+
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
     for (UITouch *touch in touches) {
         [self addChild:[[LaserService sharedService] shootPlayerLaser]];
     }
 }
+
+#pragma mark - update methods
 
 - (void)update:(CFTimeInterval)currentTime
 {
@@ -78,6 +86,19 @@
     
     self.previousTime = currentTime;
 }
+
+#pragma mark - configure methods
+
+- (void)configureAccelerometer
+{
+    self.motionManager = [[CMMotionManager alloc] init];
+    self.motionManager.accelerometerUpdateInterval = 0.06;
+    
+    [self.motionManager startAccelerometerUpdates];
+    [PlayerService sharedService].motionManager = self.motionManager;
+}
+
+#pragma mark - init methods
 
 - (void)initSceneWithSprites
 {
@@ -92,6 +113,7 @@
     if (self) {
         [self initSceneWithSprites];
         [self registerNotificationsObservers];
+        [self configureAccelerometer];
     }
     
     return self;

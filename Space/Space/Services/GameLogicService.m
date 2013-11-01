@@ -34,7 +34,7 @@
     }
 }
 
-#pragma hit test methods
+#pragma mark - hit test methods
 
 - (void)hitTesting
 {

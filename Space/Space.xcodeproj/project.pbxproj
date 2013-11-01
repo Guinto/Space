@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A6484D6C182336BF008041A7 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6484D6B182336BF008041A7 /* CoreMotion.framework */; };
 		A66DB8501821D9E10083DEF3 /* greenBomberAlien.png in Resources */ = {isa = PBXBuildFile; fileRef = A66DB8201821D9E10083DEF3 /* greenBomberAlien.png */; };
 		A66DB8511821D9E10083DEF3 /* greenBomberAlien@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A66DB8211821D9E10083DEF3 /* greenBomberAlien@2x.png */; };
 		A66DB8521821D9E10083DEF3 /* greenBomberLeftAlien.png in Resources */ = {isa = PBXBuildFile; fileRef = A66DB8221821D9E10083DEF3 /* greenBomberLeftAlien.png */; };
@@ -108,6 +109,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A6484D6B182336BF008041A7 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		A66DB8201821D9E10083DEF3 /* greenBomberAlien.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = greenBomberAlien.png; path = images/greenBomberAlien.png; sourceTree = "<group>"; };
 		A66DB8211821D9E10083DEF3 /* greenBomberAlien@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "greenBomberAlien@2x.png"; path = "images/greenBomberAlien@2x.png"; sourceTree = "<group>"; };
 		A66DB8221821D9E10083DEF3 /* greenBomberLeftAlien.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = greenBomberLeftAlien.png; path = images/greenBomberLeftAlien.png; sourceTree = "<group>"; };
@@ -223,6 +225,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6484D6C182336BF008041A7 /* CoreMotion.framework in Frameworks */,
 				A6AFF3C8181F7BF5004CD462 /* CoreGraphics.framework in Frameworks */,
 				A6AFF3CA181F7BF5004CD462 /* UIKit.framework in Frameworks */,
 				A6AFF3CC181F7BF5004CD462 /* SpriteKit.framework in Frameworks */,
@@ -276,6 +279,7 @@
 		A6AFF3C4181F7BF5004CD462 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A6484D6B182336BF008041A7 /* CoreMotion.framework */,
 				A6AFF3C5181F7BF5004CD462 /* Foundation.framework */,
 				A6AFF3C7181F7BF5004CD462 /* CoreGraphics.framework */,
 				A6AFF3C9181F7BF5004CD462 /* UIKit.framework */,
