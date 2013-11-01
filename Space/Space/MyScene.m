@@ -15,6 +15,8 @@
 #import "GameLogicService.h"
 #import "SPConstants.h"
 
+#define ACCELEROMETER_UPDATE_INTERVAL 0.6
+
 @interface MyScene () <UIAccelerometerDelegate>
 
 @property (nonatomic) CFTimeInterval previousTime;
@@ -105,7 +107,7 @@
 - (void)configureAccelerometer
 {
     self.motionManager = [[CMMotionManager alloc] init];
-    self.motionManager.accelerometerUpdateInterval = 0.06;
+    self.motionManager.accelerometerUpdateInterval = ACCELEROMETER_UPDATE_INTERVAL;
     
     [self.motionManager startAccelerometerUpdates];
     [PlayerService sharedService].motionManager = self.motionManager;
