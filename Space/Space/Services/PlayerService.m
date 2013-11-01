@@ -16,6 +16,13 @@
 
 @implementation PlayerService
 
+- (void)update:(CFTimeInterval)dt
+{
+    if (self.player.hit) {
+        self.player = nil;
+    }
+}
+
 - (CGPoint)position
 {
     return self.player.sprite.position;

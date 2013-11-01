@@ -27,7 +27,16 @@
     if ([notification.object isKindOfClass:[SKSpriteNode class]]) {
         [self addChild:notification.object];
     } else {
-        NSLog(@"%@", notification.object);
+        NSAssert(0, @"Should be a sprite");
+    }
+}
+
+- (void)spriteDestroyed:(NSNotification *)notification
+{
+    if ([notification.object isKindOfClass:[SKSpriteNode class]]) {
+        [self removeChildrenInArray:@[notification.object]];
+    } else {
+        NSAssert(0, @"Should be a sprite");
     }
 }
 
@@ -35,7 +44,22 @@
 {
     [[NSNotificationCenter defaultCenter] addObserver:self
                                              selector:@selector(alienSpawned:)
-                                                 name:SPAlienSpawned
+                                                 name:SPAlienSpawnedNotification
+                                               object:nil];
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(spriteDestroyed:)
+                                                 name:SPPlayerDestroyedNotification
+                                               object:nil];
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(spriteDestroyed:)
+                                                 name:SPAlienDestroyedNotification
+                                               object:nil];
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(spriteDestroyed:)
+                                                 name:SPLaserDestroyedNotification
                                                object:nil];
 }
 

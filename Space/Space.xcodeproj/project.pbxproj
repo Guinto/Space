@@ -59,6 +59,7 @@
 		A66DB8851821DAF00083DEF3 /* AlienService.m in Sources */ = {isa = PBXBuildFile; fileRef = A66DB8841821DAF00083DEF3 /* AlienService.m */; };
 		A66DB8881821DDCE0083DEF3 /* GameLogicService.m in Sources */ = {isa = PBXBuildFile; fileRef = A66DB8871821DDCE0083DEF3 /* GameLogicService.m */; };
 		A66DB88C1821DF1C0083DEF3 /* SPConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = A66DB88B1821DF1C0083DEF3 /* SPConstants.m */; };
+		A66DB88F1821F7970083DEF3 /* SPEnums.m in Sources */ = {isa = PBXBuildFile; fileRef = A66DB88E1821F7970083DEF3 /* SPEnums.m */; };
 		A6AFF3C6181F7BF5004CD462 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6AFF3C5181F7BF5004CD462 /* Foundation.framework */; };
 		A6AFF3C8181F7BF5004CD462 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6AFF3C7181F7BF5004CD462 /* CoreGraphics.framework */; };
 		A6AFF3CA181F7BF5004CD462 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6AFF3C9181F7BF5004CD462 /* UIKit.framework */; };
@@ -163,6 +164,8 @@
 		A66DB8871821DDCE0083DEF3 /* GameLogicService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameLogicService.m; path = Services/GameLogicService.m; sourceTree = "<group>"; };
 		A66DB88A1821DF1C0083DEF3 /* SPConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SPConstants.h; path = Utility/SPConstants.h; sourceTree = "<group>"; };
 		A66DB88B1821DF1C0083DEF3 /* SPConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SPConstants.m; path = Utility/SPConstants.m; sourceTree = "<group>"; };
+		A66DB88D1821F7970083DEF3 /* SPEnums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SPEnums.h; path = Utility/SPEnums.h; sourceTree = "<group>"; };
+		A66DB88E1821F7970083DEF3 /* SPEnums.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SPEnums.m; path = Utility/SPEnums.m; sourceTree = "<group>"; };
 		A6AFF3C2181F7BF5004CD462 /* Space.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Space.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6AFF3C5181F7BF5004CD462 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A6AFF3C7181F7BF5004CD462 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -245,6 +248,8 @@
 			children = (
 				A66DB88A1821DF1C0083DEF3 /* SPConstants.h */,
 				A66DB88B1821DF1C0083DEF3 /* SPConstants.m */,
+				A66DB88D1821F7970083DEF3 /* SPEnums.h */,
+				A66DB88E1821F7970083DEF3 /* SPEnums.m */,
 			);
 			name = Utility;
 			sourceTree = "<group>";
@@ -400,12 +405,12 @@
 			children = (
 				A6E1137B1820D4BE00847F33 /* ServiceBase.h */,
 				A6E1137C1820D4BE00847F33 /* ServiceBase.m */,
+				A6E1138E1820E2FC00847F33 /* BackgroundService.h */,
+				A6E1138F1820E2FC00847F33 /* BackgroundService.m */,
 				A6E1137E1820D51700847F33 /* LaserService.h */,
 				A6E1137F1820D51700847F33 /* LaserService.m */,
 				A6E1138B1820D97600847F33 /* PlayerService.h */,
 				A6E1138C1820D97600847F33 /* PlayerService.m */,
-				A6E1138E1820E2FC00847F33 /* BackgroundService.h */,
-				A6E1138F1820E2FC00847F33 /* BackgroundService.m */,
 				A66DB8831821DAF00083DEF3 /* AlienService.h */,
 				A66DB8841821DAF00083DEF3 /* AlienService.m */,
 				A66DB8861821DDCE0083DEF3 /* GameLogicService.h */,
@@ -607,6 +612,7 @@
 				A6AFF3D8181F7BF5004CD462 /* AppDelegate.m in Sources */,
 				A6E113931820E31E00847F33 /* Background.m in Sources */,
 				A66DB8821821DAB20083DEF3 /* Alien.m in Sources */,
+				A66DB88F1821F7970083DEF3 /* SPEnums.m in Sources */,
 				A66DB88C1821DF1C0083DEF3 /* SPConstants.m in Sources */,
 				A6AFF3D4181F7BF5004CD462 /* main.m in Sources */,
 				A6E1138A1820D72500847F33 /* Player.m in Sources */,

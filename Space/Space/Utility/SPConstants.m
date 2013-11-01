@@ -6,4 +6,7 @@
 //  Copyright (c) 2013 Trent Ellingsen. All rights reserved.
 //
 
-NSString * const SPAlienSpawned = @"SPAlienSpawned";
+NSString * const SPAlienSpawnedNotification = @"SPAlienSpawnedNotification";
+NSString * const SPAlienDestroyedNotification = @"SPAlienDestroyedNotification";
+NSString * const SPPlayerDestroyedNotification = @"SPPlayerDestroyedNotification";
+NSString * const SPLaserDestroyedNotification = @"SPLaserDestroyedNotification";

@@ -11,6 +11,8 @@
 
 @interface LaserService : ServiceBase
 
+@property (nonatomic) NSMutableArray *playerLaserShots;
+
 - (SKSpriteNode *)shootPlayerLaser;
 - (void)update:(CFTimeInterval)tick;
 

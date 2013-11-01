@@ -7,7 +7,12 @@
 //
 
 #import "DomainObjectBase.h"
+#import "SPEnums.h"
 
 @interface Alien : DomainObjectBase
+
+@property (nonatomic) SPAlienType alienType;
+
+- (id)initAsRandomAlien;
 
 @end

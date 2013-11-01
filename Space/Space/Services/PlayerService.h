@@ -13,6 +13,7 @@
 
 @property (nonatomic) Player *player;
 
+- (void)update:(CFTimeInterval)dt;
 - (CGPoint)position;
 + (PlayerService *)sharedService;
 

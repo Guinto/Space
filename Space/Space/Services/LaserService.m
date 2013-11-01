@@ -15,8 +15,6 @@
 
 @interface LaserService ()
 
-@property (nonatomic) NSMutableArray *playerLaserShots;
-
 @end
 
 @implementation LaserService
@@ -42,7 +40,7 @@
     
     for (Laser *shot in currentPlayerShots)
     {
-        if (shot.sprite.position.y > [UIScreen height]) {
+        if (shot.sprite.position.y > [UIScreen height] || shot.hit) {
             [self.playerLaserShots removeObject:shot];
         } else {
             shot.sprite.position = CGPointMake(shot.sprite.position.x, shot.sprite.position.y + 1 * dt * TIME_MODIFIER);

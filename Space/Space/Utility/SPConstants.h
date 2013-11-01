@@ -6,4 +6,7 @@
 //  Copyright (c) 2013 Trent Ellingsen. All rights reserved.
 //
 
-extern NSString * const SPAlienSpawned;
+extern NSString * const SPAlienSpawnedNotification;
+extern NSString * const SPAlienDestroyedNotification;
+extern NSString * const SPPlayerDestroyedNotification;
+extern NSString * const SPLaserDestroyedNotification;

@@ -6,10 +6,12 @@
 //  Copyright (c) 2013 Trent Ellingsen. All rights reserved.
 //
 
+#import <SpriteKit/SpriteKit.h>
 #import "ServiceBase.h"
-#import "Alien.h"
 
 @interface AlienService : ServiceBase
+
+@property (nonatomic) NSMutableArray *aliens;
 
 - (SKSpriteNode *)spawnAlien;
 - (void)update:(CFTimeInterval)dt;

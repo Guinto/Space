@@ -7,14 +7,13 @@
 //
 
 #import "AlienService.h"
+#import "Alien.h"
 #import "UIScreen+ScreenSize.h"
 
 #define TIME_MODIFIER 100
 #define OFF_TOP_OF_SCREEN [UIScreen height] + 20
 
 @interface AlienService ()
-
-@property (nonatomic) NSMutableArray *aliens;
 
 @end
 
@@ -27,7 +26,7 @@
 
 - (SKSpriteNode *)spawnAlien
 {
-    Alien *alien = [[Alien alloc] init];
+    Alien *alien = [[Alien alloc] initAsRandomAlien];
     alien.sprite.position = [self pointWithRandomXPositionAboveScreen];
     
     [self.aliens addObject:alien];
@@ -45,7 +44,7 @@
     
     for (Alien *alien in currentAliens)
     {
-        if (alien.sprite.position.y < -20) {
+        if (alien.sprite.position.y < -20 || alien.hit) {
             [self.aliens removeObject:alien];
         } else {
             alien.sprite.position = CGPointMake(alien.sprite.position.x, alien.sprite.position.y - 1 * dt * TIME_MODIFIER);

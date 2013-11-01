@@ -12,5 +12,6 @@
 @interface DomainObjectBase : NSObject
 
 @property (nonatomic) SKSpriteNode *sprite;
+@property (nonatomic, getter = isHit) BOOL hit;
 
 @end
