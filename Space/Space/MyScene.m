@@ -15,7 +15,7 @@
 #import "GameLogicService.h"
 #import "SPConstants.h"
 
-#define ACCELEROMETER_UPDATE_INTERVAL 0.6
+#define ACCELEROMETER_UPDATE_INTERVAL 0.06
 
 @interface MyScene () <UIAccelerometerDelegate>
 
