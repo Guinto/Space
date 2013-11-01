@@ -13,6 +13,7 @@
 
 @property (nonatomic) SPAlienType alienType;
 
+- (void)animateDestroyedWithCompletion:(void(^)())completion;
 - (id)initAsRandomAlien;
 
 @end

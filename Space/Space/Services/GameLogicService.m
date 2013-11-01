@@ -7,10 +7,13 @@
 //
 
 #import "GameLogicService.h"
-#import "AlienService.h"
 #import "SPConstants.h"
+#import "AlienService.h"
 #import "LaserService.h"
 #import "PlayerService.h"
+#import "Laser.h"
+#import "Player.h"
+#import "Alien.h"
 
 #define LASER_SPEED 0.3
 
@@ -85,7 +88,7 @@
     }
 }
 
-- (void)playerHit:(id)player
+- (void)playerHit:(Player *)player
 {
     [player setHit:YES];
     [[NSNotificationCenter defaultCenter] postNotificationName:SPPlayerDestroyedNotification
@@ -93,14 +96,16 @@
 }
 
 
-- (void)alienHit:(id)alien
+- (void)alienHit:(Alien *)alien
 {
     [alien setHit:YES];
-    [[NSNotificationCenter defaultCenter] postNotificationName:SPAlienDestroyedNotification
-                                                        object:[alien sprite]];
+    [alien animateDestroyedWithCompletion:^{
+        [[NSNotificationCenter defaultCenter] postNotificationName:SPAlienDestroyedNotification
+                                                            object:[alien sprite]];
+    }];
 }
 
-- (void)laserHit:(id)laser
+- (void)laserHit:(Laser *)laser
 {
     [laser setHit:YES];
     [[NSNotificationCenter defaultCenter] postNotificationName:SPLaserDestroyedNotification

@@ -12,70 +12,30 @@
 		A6484D72182346D0008041A7 /* playerLeftShip@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484D6E182346D0008041A7 /* playerLeftShip@2x.png */; };
 		A6484D73182346D0008041A7 /* playerRightShip.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484D6F182346D0008041A7 /* playerRightShip.png */; };
 		A6484D74182346D0008041A7 /* playerRightShip@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484D70182346D0008041A7 /* playerRightShip@2x.png */; };
-		A6484DB518235811008041A7 /* alienDestroyed2.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484D7518235810008041A7 /* alienDestroyed2.png */; };
-		A6484DB618235811008041A7 /* alienDestroyed2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484D7618235810008041A7 /* alienDestroyed2@2x.png */; };
-		A6484DB718235811008041A7 /* alienDestroyed3.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484D7718235810008041A7 /* alienDestroyed3.png */; };
-		A6484DB818235811008041A7 /* alienDestroyed3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484D7818235810008041A7 /* alienDestroyed3@2x.png */; };
-		A6484DB918235811008041A7 /* alienDestroyed4.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484D7918235810008041A7 /* alienDestroyed4.png */; };
-		A6484DBA18235811008041A7 /* alienDestroyed4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484D7A18235810008041A7 /* alienDestroyed4@2x.png */; };
-		A6484DBB18235811008041A7 /* alienDestroyed5.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484D7B18235810008041A7 /* alienDestroyed5.png */; };
-		A6484DBC18235811008041A7 /* alienDestroyed5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484D7C18235810008041A7 /* alienDestroyed5@2x.png */; };
-		A6484DBD18235811008041A7 /* alienDestroyed6.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484D7D18235810008041A7 /* alienDestroyed6.png */; };
-		A6484DBE18235811008041A7 /* alienDestroyed6@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484D7E18235810008041A7 /* alienDestroyed6@2x.png */; };
-		A6484DBF18235811008041A7 /* alienDestroyed7.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484D7F18235810008041A7 /* alienDestroyed7.png */; };
-		A6484DC018235811008041A7 /* alienDestroyed7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484D8018235810008041A7 /* alienDestroyed7@2x.png */; };
-		A6484DC118235811008041A7 /* alienDestroyed8.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484D8118235810008041A7 /* alienDestroyed8.png */; };
-		A6484DC218235811008041A7 /* alienDestroyed8@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484D8218235811008041A7 /* alienDestroyed8@2x.png */; };
-		A6484DC318235811008041A7 /* alienDestroyed9.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484D8318235811008041A7 /* alienDestroyed9.png */; };
-		A6484DC418235811008041A7 /* alienDestroyed9@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484D8418235811008041A7 /* alienDestroyed9@2x.png */; };
-		A6484DC518235811008041A7 /* alienDestroyed10.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484D8518235811008041A7 /* alienDestroyed10.png */; };
-		A6484DC618235811008041A7 /* alienDestroyed10@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484D8618235811008041A7 /* alienDestroyed10@2x.png */; };
-		A6484DC718235811008041A7 /* alienDestroyed11.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484D8718235811008041A7 /* alienDestroyed11.png */; };
-		A6484DC818235811008041A7 /* alienDestroyed11@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484D8818235811008041A7 /* alienDestroyed11@2x.png */; };
-		A6484DC918235811008041A7 /* alienLaserRoundShot.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484D8918235811008041A7 /* alienLaserRoundShot.png */; };
-		A6484DCA18235811008041A7 /* alienLaserRoundShot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484D8A18235811008041A7 /* alienLaserRoundShot@2x.png */; };
-		A6484DCB18235811008041A7 /* alienLaserShot.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484D8B18235811008041A7 /* alienLaserShot.png */; };
-		A6484DCC18235811008041A7 /* alienLaserShot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484D8C18235811008041A7 /* alienLaserShot@2x.png */; };
-		A6484DCD18235811008041A7 /* boosters.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484D8D18235811008041A7 /* boosters.png */; };
-		A6484DCE18235811008041A7 /* boosters@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484D8E18235811008041A7 /* boosters@2x.png */; };
-		A6484DCF18235811008041A7 /* item1.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484D8F18235811008041A7 /* item1.png */; };
-		A6484DD018235811008041A7 /* item1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484D9018235811008041A7 /* item1@2x.png */; };
-		A6484DD118235811008041A7 /* item2.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484D9118235811008041A7 /* item2.png */; };
-		A6484DD218235811008041A7 /* item2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484D9218235811008041A7 /* item2@2x.png */; };
-		A6484DD318235811008041A7 /* item3.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484D9318235811008041A7 /* item3.png */; };
-		A6484DD418235811008041A7 /* item3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484D9418235811008041A7 /* item3@2x.png */; };
-		A6484DD518235811008041A7 /* item5.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484D9518235811008041A7 /* item5.png */; };
-		A6484DD618235811008041A7 /* item5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484D9618235811008041A7 /* item5@2x.png */; };
-		A6484DD718235811008041A7 /* item6.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484D9718235811008041A7 /* item6.png */; };
-		A6484DD818235811008041A7 /* item6@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484D9818235811008041A7 /* item6@2x.png */; };
-		A6484DD918235811008041A7 /* item7.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484D9918235811008041A7 /* item7.png */; };
-		A6484DDA18235811008041A7 /* item7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484D9A18235811008041A7 /* item7@2x.png */; };
-		A6484DDB18235811008041A7 /* leftWeaponAddon.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484D9B18235811008041A7 /* leftWeaponAddon.png */; };
-		A6484DDC18235811008041A7 /* leftWeaponAddon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484D9C18235811008041A7 /* leftWeaponAddon@2x.png */; };
-		A6484DDD18235811008041A7 /* playerDestroyed1.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484D9D18235811008041A7 /* playerDestroyed1.png */; };
-		A6484DDE18235811008041A7 /* playerDestroyed1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484D9E18235811008041A7 /* playerDestroyed1@2x.png */; };
-		A6484DDF18235811008041A7 /* playerDestroyed2.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484D9F18235811008041A7 /* playerDestroyed2.png */; };
-		A6484DE018235811008041A7 /* playerDestroyed2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484DA018235811008041A7 /* playerDestroyed2@2x.png */; };
-		A6484DE118235811008041A7 /* playerDestroyed3.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484DA118235811008041A7 /* playerDestroyed3.png */; };
-		A6484DE218235811008041A7 /* playerDestroyed3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484DA218235811008041A7 /* playerDestroyed3@2x.png */; };
-		A6484DE318235811008041A7 /* playerDestroyed4.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484DA318235811008041A7 /* playerDestroyed4.png */; };
-		A6484DE418235811008041A7 /* playerDestroyed4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484DA418235811008041A7 /* playerDestroyed4@2x.png */; };
-		A6484DE518235811008041A7 /* playerDestroyed5.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484DA518235811008041A7 /* playerDestroyed5.png */; };
-		A6484DE618235811008041A7 /* playerDestroyed5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484DA618235811008041A7 /* playerDestroyed5@2x.png */; };
-		A6484DE718235811008041A7 /* playerDestroyed6.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484DA718235811008041A7 /* playerDestroyed6.png */; };
-		A6484DE818235811008041A7 /* playerDestroyed6@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484DA818235811008041A7 /* playerDestroyed6@2x.png */; };
-		A6484DE918235811008041A7 /* playerDestroyed7.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484DA918235811008041A7 /* playerDestroyed7.png */; };
-		A6484DEA18235811008041A7 /* playerDestroyed7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484DAA18235811008041A7 /* playerDestroyed7@2x.png */; };
-		A6484DEB18235811008041A7 /* playerDestroyed8.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484DAB18235811008041A7 /* playerDestroyed8.png */; };
-		A6484DEC18235811008041A7 /* playerDestroyed8@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484DAC18235811008041A7 /* playerDestroyed8@2x.png */; };
-		A6484DED18235811008041A7 /* playerDestroyed9.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484DAD18235811008041A7 /* playerDestroyed9.png */; };
-		A6484DEE18235811008041A7 /* playerDestroyed9@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484DAE18235811008041A7 /* playerDestroyed9@2x.png */; };
-		A6484DEF18235811008041A7 /* playerDestroyed10 @2xpng.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484DAF18235811008041A7 /* playerDestroyed10 @2xpng.png */; };
-		A6484DF018235811008041A7 /* playerDestroyed10.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484DB018235811008041A7 /* playerDestroyed10.png */; };
-		A6484DF118235811008041A7 /* playerDestroyed11.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484DB118235811008041A7 /* playerDestroyed11.png */; };
-		A6484DF218235811008041A7 /* playerDestroyed11@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484DB218235811008041A7 /* playerDestroyed11@2x.png */; };
-		A6484DF318235811008041A7 /* rightWeaponAddon.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484DB318235811008041A7 /* rightWeaponAddon.png */; };
-		A6484DF418235811008041A7 /* rightWeaponAddon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484DB418235811008041A7 /* rightWeaponAddon@2x.png */; };
+		A6484E0D18235D18008041A7 /* alienDestroyed.atlas in Resources */ = {isa = PBXBuildFile; fileRef = A6484DF518235D18008041A7 /* alienDestroyed.atlas */; };
+		A6484E0E18235D18008041A7 /* alienLaserRoundShot.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484DF618235D18008041A7 /* alienLaserRoundShot.png */; };
+		A6484E0F18235D18008041A7 /* alienLaserRoundShot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484DF718235D18008041A7 /* alienLaserRoundShot@2x.png */; };
+		A6484E1018235D18008041A7 /* alienLaserShot.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484DF818235D18008041A7 /* alienLaserShot.png */; };
+		A6484E1118235D18008041A7 /* alienLaserShot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484DF918235D18008041A7 /* alienLaserShot@2x.png */; };
+		A6484E1218235D18008041A7 /* boosters.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484DFA18235D18008041A7 /* boosters.png */; };
+		A6484E1318235D18008041A7 /* boosters@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484DFB18235D18008041A7 /* boosters@2x.png */; };
+		A6484E1418235D18008041A7 /* item1.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484DFC18235D18008041A7 /* item1.png */; };
+		A6484E1518235D18008041A7 /* item1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484DFD18235D18008041A7 /* item1@2x.png */; };
+		A6484E1618235D18008041A7 /* item2.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484DFE18235D18008041A7 /* item2.png */; };
+		A6484E1718235D18008041A7 /* item2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484DFF18235D18008041A7 /* item2@2x.png */; };
+		A6484E1818235D18008041A7 /* item3.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484E0018235D18008041A7 /* item3.png */; };
+		A6484E1918235D18008041A7 /* item3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484E0118235D18008041A7 /* item3@2x.png */; };
+		A6484E1A18235D18008041A7 /* item5.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484E0218235D18008041A7 /* item5.png */; };
+		A6484E1B18235D18008041A7 /* item5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484E0318235D18008041A7 /* item5@2x.png */; };
+		A6484E1C18235D18008041A7 /* item6.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484E0418235D18008041A7 /* item6.png */; };
+		A6484E1D18235D18008041A7 /* item6@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484E0518235D18008041A7 /* item6@2x.png */; };
+		A6484E1E18235D18008041A7 /* item7.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484E0618235D18008041A7 /* item7.png */; };
+		A6484E1F18235D18008041A7 /* item7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484E0718235D18008041A7 /* item7@2x.png */; };
+		A6484E2018235D18008041A7 /* leftWeaponAddon.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484E0818235D18008041A7 /* leftWeaponAddon.png */; };
+		A6484E2118235D18008041A7 /* leftWeaponAddon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484E0918235D18008041A7 /* leftWeaponAddon@2x.png */; };
+		A6484E2218235D18008041A7 /* playerDestroyed.atlas in Resources */ = {isa = PBXBuildFile; fileRef = A6484E0A18235D18008041A7 /* playerDestroyed.atlas */; };
+		A6484E2318235D18008041A7 /* rightWeaponAddon.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484E0B18235D18008041A7 /* rightWeaponAddon.png */; };
+		A6484E2418235D18008041A7 /* rightWeaponAddon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6484E0C18235D18008041A7 /* rightWeaponAddon@2x.png */; };
 		A66DB8501821D9E10083DEF3 /* greenBomberAlien.png in Resources */ = {isa = PBXBuildFile; fileRef = A66DB8201821D9E10083DEF3 /* greenBomberAlien.png */; };
 		A66DB8511821D9E10083DEF3 /* greenBomberAlien@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A66DB8211821D9E10083DEF3 /* greenBomberAlien@2x.png */; };
 		A66DB8521821D9E10083DEF3 /* greenBomberLeftAlien.png in Resources */ = {isa = PBXBuildFile; fileRef = A66DB8221821D9E10083DEF3 /* greenBomberLeftAlien.png */; };
@@ -178,70 +138,30 @@
 		A6484D6E182346D0008041A7 /* playerLeftShip@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "playerLeftShip@2x.png"; path = "images/playerLeftShip@2x.png"; sourceTree = "<group>"; };
 		A6484D6F182346D0008041A7 /* playerRightShip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = playerRightShip.png; path = images/playerRightShip.png; sourceTree = "<group>"; };
 		A6484D70182346D0008041A7 /* playerRightShip@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "playerRightShip@2x.png"; path = "images/playerRightShip@2x.png"; sourceTree = "<group>"; };
-		A6484D7518235810008041A7 /* alienDestroyed2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = alienDestroyed2.png; path = images/alienDestroyed2.png; sourceTree = "<group>"; };
-		A6484D7618235810008041A7 /* alienDestroyed2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "alienDestroyed2@2x.png"; path = "images/alienDestroyed2@2x.png"; sourceTree = "<group>"; };
-		A6484D7718235810008041A7 /* alienDestroyed3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = alienDestroyed3.png; path = images/alienDestroyed3.png; sourceTree = "<group>"; };
-		A6484D7818235810008041A7 /* alienDestroyed3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "alienDestroyed3@2x.png"; path = "images/alienDestroyed3@2x.png"; sourceTree = "<group>"; };
-		A6484D7918235810008041A7 /* alienDestroyed4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = alienDestroyed4.png; path = images/alienDestroyed4.png; sourceTree = "<group>"; };
-		A6484D7A18235810008041A7 /* alienDestroyed4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "alienDestroyed4@2x.png"; path = "images/alienDestroyed4@2x.png"; sourceTree = "<group>"; };
-		A6484D7B18235810008041A7 /* alienDestroyed5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = alienDestroyed5.png; path = images/alienDestroyed5.png; sourceTree = "<group>"; };
-		A6484D7C18235810008041A7 /* alienDestroyed5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "alienDestroyed5@2x.png"; path = "images/alienDestroyed5@2x.png"; sourceTree = "<group>"; };
-		A6484D7D18235810008041A7 /* alienDestroyed6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = alienDestroyed6.png; path = images/alienDestroyed6.png; sourceTree = "<group>"; };
-		A6484D7E18235810008041A7 /* alienDestroyed6@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "alienDestroyed6@2x.png"; path = "images/alienDestroyed6@2x.png"; sourceTree = "<group>"; };
-		A6484D7F18235810008041A7 /* alienDestroyed7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = alienDestroyed7.png; path = images/alienDestroyed7.png; sourceTree = "<group>"; };
-		A6484D8018235810008041A7 /* alienDestroyed7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "alienDestroyed7@2x.png"; path = "images/alienDestroyed7@2x.png"; sourceTree = "<group>"; };
-		A6484D8118235810008041A7 /* alienDestroyed8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = alienDestroyed8.png; path = images/alienDestroyed8.png; sourceTree = "<group>"; };
-		A6484D8218235811008041A7 /* alienDestroyed8@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "alienDestroyed8@2x.png"; path = "images/alienDestroyed8@2x.png"; sourceTree = "<group>"; };
-		A6484D8318235811008041A7 /* alienDestroyed9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = alienDestroyed9.png; path = images/alienDestroyed9.png; sourceTree = "<group>"; };
-		A6484D8418235811008041A7 /* alienDestroyed9@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "alienDestroyed9@2x.png"; path = "images/alienDestroyed9@2x.png"; sourceTree = "<group>"; };
-		A6484D8518235811008041A7 /* alienDestroyed10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = alienDestroyed10.png; path = images/alienDestroyed10.png; sourceTree = "<group>"; };
-		A6484D8618235811008041A7 /* alienDestroyed10@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "alienDestroyed10@2x.png"; path = "images/alienDestroyed10@2x.png"; sourceTree = "<group>"; };
-		A6484D8718235811008041A7 /* alienDestroyed11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = alienDestroyed11.png; path = images/alienDestroyed11.png; sourceTree = "<group>"; };
-		A6484D8818235811008041A7 /* alienDestroyed11@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "alienDestroyed11@2x.png"; path = "images/alienDestroyed11@2x.png"; sourceTree = "<group>"; };
-		A6484D8918235811008041A7 /* alienLaserRoundShot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = alienLaserRoundShot.png; path = images/alienLaserRoundShot.png; sourceTree = "<group>"; };
-		A6484D8A18235811008041A7 /* alienLaserRoundShot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "alienLaserRoundShot@2x.png"; path = "images/alienLaserRoundShot@2x.png"; sourceTree = "<group>"; };
-		A6484D8B18235811008041A7 /* alienLaserShot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = alienLaserShot.png; path = images/alienLaserShot.png; sourceTree = "<group>"; };
-		A6484D8C18235811008041A7 /* alienLaserShot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "alienLaserShot@2x.png"; path = "images/alienLaserShot@2x.png"; sourceTree = "<group>"; };
-		A6484D8D18235811008041A7 /* boosters.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = boosters.png; path = images/boosters.png; sourceTree = "<group>"; };
-		A6484D8E18235811008041A7 /* boosters@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "boosters@2x.png"; path = "images/boosters@2x.png"; sourceTree = "<group>"; };
-		A6484D8F18235811008041A7 /* item1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = item1.png; path = images/item1.png; sourceTree = "<group>"; };
-		A6484D9018235811008041A7 /* item1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "item1@2x.png"; path = "images/item1@2x.png"; sourceTree = "<group>"; };
-		A6484D9118235811008041A7 /* item2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = item2.png; path = images/item2.png; sourceTree = "<group>"; };
-		A6484D9218235811008041A7 /* item2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "item2@2x.png"; path = "images/item2@2x.png"; sourceTree = "<group>"; };
-		A6484D9318235811008041A7 /* item3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = item3.png; path = images/item3.png; sourceTree = "<group>"; };
-		A6484D9418235811008041A7 /* item3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "item3@2x.png"; path = "images/item3@2x.png"; sourceTree = "<group>"; };
-		A6484D9518235811008041A7 /* item5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = item5.png; path = images/item5.png; sourceTree = "<group>"; };
-		A6484D9618235811008041A7 /* item5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "item5@2x.png"; path = "images/item5@2x.png"; sourceTree = "<group>"; };
-		A6484D9718235811008041A7 /* item6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = item6.png; path = images/item6.png; sourceTree = "<group>"; };
-		A6484D9818235811008041A7 /* item6@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "item6@2x.png"; path = "images/item6@2x.png"; sourceTree = "<group>"; };
-		A6484D9918235811008041A7 /* item7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = item7.png; path = images/item7.png; sourceTree = "<group>"; };
-		A6484D9A18235811008041A7 /* item7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "item7@2x.png"; path = "images/item7@2x.png"; sourceTree = "<group>"; };
-		A6484D9B18235811008041A7 /* leftWeaponAddon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = leftWeaponAddon.png; path = images/leftWeaponAddon.png; sourceTree = "<group>"; };
-		A6484D9C18235811008041A7 /* leftWeaponAddon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "leftWeaponAddon@2x.png"; path = "images/leftWeaponAddon@2x.png"; sourceTree = "<group>"; };
-		A6484D9D18235811008041A7 /* playerDestroyed1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = playerDestroyed1.png; path = images/playerDestroyed1.png; sourceTree = "<group>"; };
-		A6484D9E18235811008041A7 /* playerDestroyed1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "playerDestroyed1@2x.png"; path = "images/playerDestroyed1@2x.png"; sourceTree = "<group>"; };
-		A6484D9F18235811008041A7 /* playerDestroyed2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = playerDestroyed2.png; path = images/playerDestroyed2.png; sourceTree = "<group>"; };
-		A6484DA018235811008041A7 /* playerDestroyed2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "playerDestroyed2@2x.png"; path = "images/playerDestroyed2@2x.png"; sourceTree = "<group>"; };
-		A6484DA118235811008041A7 /* playerDestroyed3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = playerDestroyed3.png; path = images/playerDestroyed3.png; sourceTree = "<group>"; };
-		A6484DA218235811008041A7 /* playerDestroyed3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "playerDestroyed3@2x.png"; path = "images/playerDestroyed3@2x.png"; sourceTree = "<group>"; };
-		A6484DA318235811008041A7 /* playerDestroyed4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = playerDestroyed4.png; path = images/playerDestroyed4.png; sourceTree = "<group>"; };
-		A6484DA418235811008041A7 /* playerDestroyed4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "playerDestroyed4@2x.png"; path = "images/playerDestroyed4@2x.png"; sourceTree = "<group>"; };
-		A6484DA518235811008041A7 /* playerDestroyed5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = playerDestroyed5.png; path = images/playerDestroyed5.png; sourceTree = "<group>"; };
-		A6484DA618235811008041A7 /* playerDestroyed5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "playerDestroyed5@2x.png"; path = "images/playerDestroyed5@2x.png"; sourceTree = "<group>"; };
-		A6484DA718235811008041A7 /* playerDestroyed6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = playerDestroyed6.png; path = images/playerDestroyed6.png; sourceTree = "<group>"; };
-		A6484DA818235811008041A7 /* playerDestroyed6@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "playerDestroyed6@2x.png"; path = "images/playerDestroyed6@2x.png"; sourceTree = "<group>"; };
-		A6484DA918235811008041A7 /* playerDestroyed7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = playerDestroyed7.png; path = images/playerDestroyed7.png; sourceTree = "<group>"; };
-		A6484DAA18235811008041A7 /* playerDestroyed7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "playerDestroyed7@2x.png"; path = "images/playerDestroyed7@2x.png"; sourceTree = "<group>"; };
-		A6484DAB18235811008041A7 /* playerDestroyed8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = playerDestroyed8.png; path = images/playerDestroyed8.png; sourceTree = "<group>"; };
-		A6484DAC18235811008041A7 /* playerDestroyed8@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "playerDestroyed8@2x.png"; path = "images/playerDestroyed8@2x.png"; sourceTree = "<group>"; };
-		A6484DAD18235811008041A7 /* playerDestroyed9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = playerDestroyed9.png; path = images/playerDestroyed9.png; sourceTree = "<group>"; };
-		A6484DAE18235811008041A7 /* playerDestroyed9@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "playerDestroyed9@2x.png"; path = "images/playerDestroyed9@2x.png"; sourceTree = "<group>"; };
-		A6484DAF18235811008041A7 /* playerDestroyed10 @2xpng.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "playerDestroyed10 @2xpng.png"; path = "images/playerDestroyed10 @2xpng.png"; sourceTree = "<group>"; };
-		A6484DB018235811008041A7 /* playerDestroyed10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = playerDestroyed10.png; path = images/playerDestroyed10.png; sourceTree = "<group>"; };
-		A6484DB118235811008041A7 /* playerDestroyed11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = playerDestroyed11.png; path = images/playerDestroyed11.png; sourceTree = "<group>"; };
-		A6484DB218235811008041A7 /* playerDestroyed11@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "playerDestroyed11@2x.png"; path = "images/playerDestroyed11@2x.png"; sourceTree = "<group>"; };
-		A6484DB318235811008041A7 /* rightWeaponAddon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rightWeaponAddon.png; path = images/rightWeaponAddon.png; sourceTree = "<group>"; };
-		A6484DB418235811008041A7 /* rightWeaponAddon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "rightWeaponAddon@2x.png"; path = "images/rightWeaponAddon@2x.png"; sourceTree = "<group>"; };
+		A6484DF518235D18008041A7 /* alienDestroyed.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = alienDestroyed.atlas; path = images/alienDestroyed.atlas; sourceTree = "<group>"; };
+		A6484DF618235D18008041A7 /* alienLaserRoundShot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = alienLaserRoundShot.png; path = images/alienLaserRoundShot.png; sourceTree = "<group>"; };
+		A6484DF718235D18008041A7 /* alienLaserRoundShot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "alienLaserRoundShot@2x.png"; path = "images/alienLaserRoundShot@2x.png"; sourceTree = "<group>"; };
+		A6484DF818235D18008041A7 /* alienLaserShot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = alienLaserShot.png; path = images/alienLaserShot.png; sourceTree = "<group>"; };
+		A6484DF918235D18008041A7 /* alienLaserShot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "alienLaserShot@2x.png"; path = "images/alienLaserShot@2x.png"; sourceTree = "<group>"; };
+		A6484DFA18235D18008041A7 /* boosters.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = boosters.png; path = images/boosters.png; sourceTree = "<group>"; };
+		A6484DFB18235D18008041A7 /* boosters@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "boosters@2x.png"; path = "images/boosters@2x.png"; sourceTree = "<group>"; };
+		A6484DFC18235D18008041A7 /* item1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = item1.png; path = images/item1.png; sourceTree = "<group>"; };
+		A6484DFD18235D18008041A7 /* item1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "item1@2x.png"; path = "images/item1@2x.png"; sourceTree = "<group>"; };
+		A6484DFE18235D18008041A7 /* item2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = item2.png; path = images/item2.png; sourceTree = "<group>"; };
+		A6484DFF18235D18008041A7 /* item2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "item2@2x.png"; path = "images/item2@2x.png"; sourceTree = "<group>"; };
+		A6484E0018235D18008041A7 /* item3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = item3.png; path = images/item3.png; sourceTree = "<group>"; };
+		A6484E0118235D18008041A7 /* item3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "item3@2x.png"; path = "images/item3@2x.png"; sourceTree = "<group>"; };
+		A6484E0218235D18008041A7 /* item5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = item5.png; path = images/item5.png; sourceTree = "<group>"; };
+		A6484E0318235D18008041A7 /* item5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "item5@2x.png"; path = "images/item5@2x.png"; sourceTree = "<group>"; };
+		A6484E0418235D18008041A7 /* item6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = item6.png; path = images/item6.png; sourceTree = "<group>"; };
+		A6484E0518235D18008041A7 /* item6@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "item6@2x.png"; path = "images/item6@2x.png"; sourceTree = "<group>"; };
+		A6484E0618235D18008041A7 /* item7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = item7.png; path = images/item7.png; sourceTree = "<group>"; };
+		A6484E0718235D18008041A7 /* item7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "item7@2x.png"; path = "images/item7@2x.png"; sourceTree = "<group>"; };
+		A6484E0818235D18008041A7 /* leftWeaponAddon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = leftWeaponAddon.png; path = images/leftWeaponAddon.png; sourceTree = "<group>"; };
+		A6484E0918235D18008041A7 /* leftWeaponAddon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "leftWeaponAddon@2x.png"; path = "images/leftWeaponAddon@2x.png"; sourceTree = "<group>"; };
+		A6484E0A18235D18008041A7 /* playerDestroyed.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = playerDestroyed.atlas; path = images/playerDestroyed.atlas; sourceTree = "<group>"; };
+		A6484E0B18235D18008041A7 /* rightWeaponAddon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rightWeaponAddon.png; path = images/rightWeaponAddon.png; sourceTree = "<group>"; };
+		A6484E0C18235D18008041A7 /* rightWeaponAddon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "rightWeaponAddon@2x.png"; path = "images/rightWeaponAddon@2x.png"; sourceTree = "<group>"; };
 		A66DB8201821D9E10083DEF3 /* greenBomberAlien.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = greenBomberAlien.png; path = images/greenBomberAlien.png; sourceTree = "<group>"; };
 		A66DB8211821D9E10083DEF3 /* greenBomberAlien@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "greenBomberAlien@2x.png"; path = "images/greenBomberAlien@2x.png"; sourceTree = "<group>"; };
 		A66DB8221821D9E10083DEF3 /* greenBomberLeftAlien.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = greenBomberLeftAlien.png; path = images/greenBomberLeftAlien.png; sourceTree = "<group>"; };
@@ -470,70 +390,30 @@
 		A6AFF403181F8049004CD462 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				A6484D7518235810008041A7 /* alienDestroyed2.png */,
-				A6484D7618235810008041A7 /* alienDestroyed2@2x.png */,
-				A6484D7718235810008041A7 /* alienDestroyed3.png */,
-				A6484D7818235810008041A7 /* alienDestroyed3@2x.png */,
-				A6484D7918235810008041A7 /* alienDestroyed4.png */,
-				A6484D7A18235810008041A7 /* alienDestroyed4@2x.png */,
-				A6484D7B18235810008041A7 /* alienDestroyed5.png */,
-				A6484D7C18235810008041A7 /* alienDestroyed5@2x.png */,
-				A6484D7D18235810008041A7 /* alienDestroyed6.png */,
-				A6484D7E18235810008041A7 /* alienDestroyed6@2x.png */,
-				A6484D7F18235810008041A7 /* alienDestroyed7.png */,
-				A6484D8018235810008041A7 /* alienDestroyed7@2x.png */,
-				A6484D8118235810008041A7 /* alienDestroyed8.png */,
-				A6484D8218235811008041A7 /* alienDestroyed8@2x.png */,
-				A6484D8318235811008041A7 /* alienDestroyed9.png */,
-				A6484D8418235811008041A7 /* alienDestroyed9@2x.png */,
-				A6484D8518235811008041A7 /* alienDestroyed10.png */,
-				A6484D8618235811008041A7 /* alienDestroyed10@2x.png */,
-				A6484D8718235811008041A7 /* alienDestroyed11.png */,
-				A6484D8818235811008041A7 /* alienDestroyed11@2x.png */,
-				A6484D8918235811008041A7 /* alienLaserRoundShot.png */,
-				A6484D8A18235811008041A7 /* alienLaserRoundShot@2x.png */,
-				A6484D8B18235811008041A7 /* alienLaserShot.png */,
-				A6484D8C18235811008041A7 /* alienLaserShot@2x.png */,
-				A6484D8D18235811008041A7 /* boosters.png */,
-				A6484D8E18235811008041A7 /* boosters@2x.png */,
-				A6484D8F18235811008041A7 /* item1.png */,
-				A6484D9018235811008041A7 /* item1@2x.png */,
-				A6484D9118235811008041A7 /* item2.png */,
-				A6484D9218235811008041A7 /* item2@2x.png */,
-				A6484D9318235811008041A7 /* item3.png */,
-				A6484D9418235811008041A7 /* item3@2x.png */,
-				A6484D9518235811008041A7 /* item5.png */,
-				A6484D9618235811008041A7 /* item5@2x.png */,
-				A6484D9718235811008041A7 /* item6.png */,
-				A6484D9818235811008041A7 /* item6@2x.png */,
-				A6484D9918235811008041A7 /* item7.png */,
-				A6484D9A18235811008041A7 /* item7@2x.png */,
-				A6484D9B18235811008041A7 /* leftWeaponAddon.png */,
-				A6484D9C18235811008041A7 /* leftWeaponAddon@2x.png */,
-				A6484D9D18235811008041A7 /* playerDestroyed1.png */,
-				A6484D9E18235811008041A7 /* playerDestroyed1@2x.png */,
-				A6484D9F18235811008041A7 /* playerDestroyed2.png */,
-				A6484DA018235811008041A7 /* playerDestroyed2@2x.png */,
-				A6484DA118235811008041A7 /* playerDestroyed3.png */,
-				A6484DA218235811008041A7 /* playerDestroyed3@2x.png */,
-				A6484DA318235811008041A7 /* playerDestroyed4.png */,
-				A6484DA418235811008041A7 /* playerDestroyed4@2x.png */,
-				A6484DA518235811008041A7 /* playerDestroyed5.png */,
-				A6484DA618235811008041A7 /* playerDestroyed5@2x.png */,
-				A6484DA718235811008041A7 /* playerDestroyed6.png */,
-				A6484DA818235811008041A7 /* playerDestroyed6@2x.png */,
-				A6484DA918235811008041A7 /* playerDestroyed7.png */,
-				A6484DAA18235811008041A7 /* playerDestroyed7@2x.png */,
-				A6484DAB18235811008041A7 /* playerDestroyed8.png */,
-				A6484DAC18235811008041A7 /* playerDestroyed8@2x.png */,
-				A6484DAD18235811008041A7 /* playerDestroyed9.png */,
-				A6484DAE18235811008041A7 /* playerDestroyed9@2x.png */,
-				A6484DAF18235811008041A7 /* playerDestroyed10 @2xpng.png */,
-				A6484DB018235811008041A7 /* playerDestroyed10.png */,
-				A6484DB118235811008041A7 /* playerDestroyed11.png */,
-				A6484DB218235811008041A7 /* playerDestroyed11@2x.png */,
-				A6484DB318235811008041A7 /* rightWeaponAddon.png */,
-				A6484DB418235811008041A7 /* rightWeaponAddon@2x.png */,
+				A6484DF518235D18008041A7 /* alienDestroyed.atlas */,
+				A6484DF618235D18008041A7 /* alienLaserRoundShot.png */,
+				A6484DF718235D18008041A7 /* alienLaserRoundShot@2x.png */,
+				A6484DF818235D18008041A7 /* alienLaserShot.png */,
+				A6484DF918235D18008041A7 /* alienLaserShot@2x.png */,
+				A6484DFA18235D18008041A7 /* boosters.png */,
+				A6484DFB18235D18008041A7 /* boosters@2x.png */,
+				A6484DFC18235D18008041A7 /* item1.png */,
+				A6484DFD18235D18008041A7 /* item1@2x.png */,
+				A6484DFE18235D18008041A7 /* item2.png */,
+				A6484DFF18235D18008041A7 /* item2@2x.png */,
+				A6484E0018235D18008041A7 /* item3.png */,
+				A6484E0118235D18008041A7 /* item3@2x.png */,
+				A6484E0218235D18008041A7 /* item5.png */,
+				A6484E0318235D18008041A7 /* item5@2x.png */,
+				A6484E0418235D18008041A7 /* item6.png */,
+				A6484E0518235D18008041A7 /* item6@2x.png */,
+				A6484E0618235D18008041A7 /* item7.png */,
+				A6484E0718235D18008041A7 /* item7@2x.png */,
+				A6484E0818235D18008041A7 /* leftWeaponAddon.png */,
+				A6484E0918235D18008041A7 /* leftWeaponAddon@2x.png */,
+				A6484E0A18235D18008041A7 /* playerDestroyed.atlas */,
+				A6484E0B18235D18008041A7 /* rightWeaponAddon.png */,
+				A6484E0C18235D18008041A7 /* rightWeaponAddon@2x.png */,
 				A6484D6D182346D0008041A7 /* playerLeftShip.png */,
 				A6484D6E182346D0008041A7 /* playerLeftShip@2x.png */,
 				A6484D6F182346D0008041A7 /* playerRightShip.png */,
@@ -720,127 +600,87 @@
 				A66DB86C1821D9E10083DEF3 /* redFighterRightAlien.png in Resources */,
 				A6484D72182346D0008041A7 /* playerLeftShip@2x.png in Resources */,
 				A66DB8621821D9E10083DEF3 /* redBomberAlien.png in Resources */,
+				A6484E1C18235D18008041A7 /* item6.png in Resources */,
+				A6484E1518235D18008041A7 /* item1@2x.png in Resources */,
+				A6484E2418235D18008041A7 /* rightWeaponAddon@2x.png in Resources */,
 				A66DB87C1821D9E10083DEF3 /* yellowJuggernautLeftAlien.png in Resources */,
-				A6484DE618235811008041A7 /* playerDestroyed5@2x.png in Resources */,
+				A6484E1218235D18008041A7 /* boosters.png in Resources */,
 				A66DB85E1821D9E10083DEF3 /* orangeJuggernautLeftAlien.png in Resources */,
 				A6AFF3D2181F7BF5004CD462 /* InfoPlist.strings in Resources */,
 				A6AFF40C181F81AC004CD462 /* playerShip.png in Resources */,
+				A6484E1818235D18008041A7 /* item3.png in Resources */,
 				A66DB8581821D9E10083DEF3 /* greenFighterLeftAlien.png in Resources */,
 				A66DB8631821D9E10083DEF3 /* redBomberAlien@2x.png in Resources */,
-				A6484DCE18235811008041A7 /* boosters@2x.png in Resources */,
+				A6484E2318235D18008041A7 /* rightWeaponAddon.png in Resources */,
 				A66DB8701821D9E10083DEF3 /* violetInterceptorLeftAlien.png in Resources */,
+				A6484E1D18235D18008041A7 /* item6@2x.png in Resources */,
+				A6484E1418235D18008041A7 /* item1.png in Resources */,
 				A66DB85C1821D9E10083DEF3 /* orangeJuggernautAlien.png in Resources */,
-				A6484DBB18235811008041A7 /* alienDestroyed5.png in Resources */,
 				A66DB8501821D9E10083DEF3 /* greenBomberAlien.png in Resources */,
-				A6484DEF18235811008041A7 /* playerDestroyed10 @2xpng.png in Resources */,
-				A6484DD918235811008041A7 /* item7.png in Resources */,
-				A6484DB918235811008041A7 /* alienDestroyed4.png in Resources */,
 				A6AFF40D181F81AC004CD462 /* playerShip@2x.png in Resources */,
 				A66DB87E1821D9E10083DEF3 /* yellowJuggernautRightAlien.png in Resources */,
-				A6484DF118235811008041A7 /* playerDestroyed11.png in Resources */,
-				A6484DB518235811008041A7 /* alienDestroyed2.png in Resources */,
-				A6484DCC18235811008041A7 /* alienLaserShot@2x.png in Resources */,
-				A6484DC418235811008041A7 /* alienDestroyed9@2x.png in Resources */,
+				A6484E2018235D18008041A7 /* leftWeaponAddon.png in Resources */,
 				A66DB85F1821D9E10083DEF3 /* orangeJuggernautLeftAlien@2x.png in Resources */,
-				A6484DF418235811008041A7 /* rightWeaponAddon@2x.png in Resources */,
-				A6484DD218235811008041A7 /* item2@2x.png in Resources */,
 				A66DB8791821D9E10083DEF3 /* yellowInterceptorRightAlien@2x.png in Resources */,
 				A66DB87D1821D9E10083DEF3 /* yellowJuggernautLeftAlien@2x.png in Resources */,
-				A6484DDF18235811008041A7 /* playerDestroyed2.png in Resources */,
 				A66DB8761821D9E10083DEF3 /* yellowInterceptorLeftAlien.png in Resources */,
 				A66DB8551821D9E10083DEF3 /* greenBomberRightAlien@2x.png in Resources */,
-				A6484DC218235811008041A7 /* alienDestroyed8@2x.png in Resources */,
-				A6484DC518235811008041A7 /* alienDestroyed10.png in Resources */,
+				A6484E0D18235D18008041A7 /* alienDestroyed.atlas in Resources */,
 				A66DB8751821D9E10083DEF3 /* yellowInterceptorAlien@2x.png in Resources */,
 				A66DB85B1821D9E10083DEF3 /* greenFighterRightAlien@2x.png in Resources */,
-				A6484DD418235811008041A7 /* item3@2x.png in Resources */,
-				A6484DD318235811008041A7 /* item3.png in Resources */,
-				A6484DE418235811008041A7 /* playerDestroyed4@2x.png in Resources */,
 				A66DB8781821D9E10083DEF3 /* yellowInterceptorRightAlien.png in Resources */,
 				A66DB8671821D9E10083DEF3 /* redBomberRightAlien@2x.png in Resources */,
+				A6484E1118235D18008041A7 /* alienLaserShot@2x.png in Resources */,
+				A6484E1E18235D18008041A7 /* item7.png in Resources */,
 				A66DB8711821D9E10083DEF3 /* violetInterceptorLeftAlien@2x.png in Resources */,
 				A66DB8571821D9E10083DEF3 /* greenFighterAlien@2x.png in Resources */,
-				A6484DCA18235811008041A7 /* alienLaserRoundShot@2x.png in Resources */,
 				A66DB8541821D9E10083DEF3 /* greenBomberRightAlien.png in Resources */,
 				A66DB8741821D9E10083DEF3 /* yellowInterceptorAlien.png in Resources */,
+				A6484E1B18235D18008041A7 /* item5@2x.png in Resources */,
 				A66DB8561821D9E10083DEF3 /* greenFighterAlien.png in Resources */,
+				A6484E0F18235D18008041A7 /* alienLaserRoundShot@2x.png in Resources */,
 				A6E113771820D43300847F33 /* playerShot.png in Resources */,
-				A6484DE718235811008041A7 /* playerDestroyed6.png in Resources */,
 				A6AFF3E5181F7BF5004CD462 /* Images.xcassets in Resources */,
-				A6484DBF18235811008041A7 /* alienDestroyed7.png in Resources */,
-				A6484DDA18235811008041A7 /* item7@2x.png in Resources */,
-				A6484DE118235811008041A7 /* playerDestroyed3.png in Resources */,
-				A6484DC718235811008041A7 /* alienDestroyed11.png in Resources */,
-				A6484DF018235811008041A7 /* playerDestroyed10.png in Resources */,
-				A6484DEB18235811008041A7 /* playerDestroyed8.png in Resources */,
 				A66DB86E1821D9E10083DEF3 /* violetInterceptorAlien.png in Resources */,
-				A6484DB618235811008041A7 /* alienDestroyed2@2x.png in Resources */,
+				A6484E2218235D18008041A7 /* playerDestroyed.atlas in Resources */,
 				A66DB86F1821D9E10083DEF3 /* violetInterceptorAlien@2x.png in Resources */,
 				A66DB8691821D9E10083DEF3 /* redFighterAlien@2x.png in Resources */,
 				A66DB85D1821D9E10083DEF3 /* orangeJuggernautAlien@2x.png in Resources */,
 				A66DB8531821D9E10083DEF3 /* greenBomberLeftAlien@2x.png in Resources */,
-				A6484DDD18235811008041A7 /* playerDestroyed1.png in Resources */,
 				A66DB8521821D9E10083DEF3 /* greenBomberLeftAlien.png in Resources */,
-				A6484DBE18235811008041A7 /* alienDestroyed6@2x.png in Resources */,
-				A6484DD618235811008041A7 /* item5@2x.png in Resources */,
+				A6484E1F18235D18008041A7 /* item7@2x.png in Resources */,
+				A6484E1718235D18008041A7 /* item2@2x.png in Resources */,
 				A66DB8731821D9E10083DEF3 /* violetInterceptorRightAlien@2x.png in Resources */,
-				A6484DBA18235811008041A7 /* alienDestroyed4@2x.png in Resources */,
 				A6E113A11820E96C00847F33 /* spaceBackground@2x.jpg in Resources */,
-				A6484DE918235811008041A7 /* playerDestroyed7.png in Resources */,
-				A6484DE218235811008041A7 /* playerDestroyed3@2x.png in Resources */,
-				A6484DEE18235811008041A7 /* playerDestroyed9@2x.png in Resources */,
-				A6484DCF18235811008041A7 /* item1.png in Resources */,
+				A6484E2118235D18008041A7 /* leftWeaponAddon@2x.png in Resources */,
 				A66DB87F1821D9E10083DEF3 /* yellowJuggernautRightAlien@2x.png in Resources */,
 				A66DB86A1821D9E10083DEF3 /* redFighterLeftAlien.png in Resources */,
 				A66DB8651821D9E10083DEF3 /* redBomberLeftAlien@2x.png in Resources */,
+				A6484E0E18235D18008041A7 /* alienLaserRoundShot.png in Resources */,
+				A6484E1A18235D18008041A7 /* item5.png in Resources */,
+				A6484E1618235D18008041A7 /* item2.png in Resources */,
 				A6E113781820D43300847F33 /* playerShot@2x.png in Resources */,
-				A6484DE318235811008041A7 /* playerDestroyed4.png in Resources */,
 				A66DB8511821D9E10083DEF3 /* greenBomberAlien@2x.png in Resources */,
-				A6484DC318235811008041A7 /* alienDestroyed9.png in Resources */,
-				A6484DE018235811008041A7 /* playerDestroyed2@2x.png in Resources */,
-				A6484DB818235811008041A7 /* alienDestroyed3@2x.png in Resources */,
 				A66DB8601821D9E10083DEF3 /* orangeJuggernautRightAlien.png in Resources */,
-				A6484DD718235811008041A7 /* item6.png in Resources */,
-				A6484DEC18235811008041A7 /* playerDestroyed8@2x.png in Resources */,
-				A6484DC118235811008041A7 /* alienDestroyed8.png in Resources */,
 				A66DB8611821D9E10083DEF3 /* orangeJuggernautRightAlien@2x.png in Resources */,
-				A6484DC618235811008041A7 /* alienDestroyed10@2x.png in Resources */,
-				A6484DBC18235811008041A7 /* alienDestroyed5@2x.png in Resources */,
-				A6484DEA18235811008041A7 /* playerDestroyed7@2x.png in Resources */,
 				A6484D73182346D0008041A7 /* playerRightShip.png in Resources */,
-				A6484DCB18235811008041A7 /* alienLaserShot.png in Resources */,
-				A6484DD518235811008041A7 /* item5.png in Resources */,
-				A6484DE518235811008041A7 /* playerDestroyed5.png in Resources */,
-				A6484DF218235811008041A7 /* playerDestroyed11@2x.png in Resources */,
 				A66DB86D1821D9E10083DEF3 /* redFighterRightAlien@2x.png in Resources */,
 				A66DB8591821D9E10083DEF3 /* greenFighterLeftAlien@2x.png in Resources */,
 				A6E113A01820E96C00847F33 /* spaceBackground.jpg in Resources */,
-				A6484DCD18235811008041A7 /* boosters.png in Resources */,
-				A6484DD118235811008041A7 /* item2.png in Resources */,
-				A6484DBD18235811008041A7 /* alienDestroyed6.png in Resources */,
-				A6484DDB18235811008041A7 /* leftWeaponAddon.png in Resources */,
-				A6484DF318235811008041A7 /* rightWeaponAddon.png in Resources */,
-				A6484DD018235811008041A7 /* item1@2x.png in Resources */,
-				A6484DDC18235811008041A7 /* leftWeaponAddon@2x.png in Resources */,
+				A6484E1918235D18008041A7 /* item3@2x.png in Resources */,
 				A66DB8681821D9E10083DEF3 /* redFighterAlien.png in Resources */,
 				A66DB85A1821D9E10083DEF3 /* greenFighterRightAlien.png in Resources */,
-				A6484DED18235811008041A7 /* playerDestroyed9.png in Resources */,
-				A6484DDE18235811008041A7 /* playerDestroyed1@2x.png in Resources */,
-				A6484DC918235811008041A7 /* alienLaserRoundShot.png in Resources */,
-				A6484DB718235811008041A7 /* alienDestroyed3.png in Resources */,
 				A66DB8721821D9E10083DEF3 /* violetInterceptorRightAlien.png in Resources */,
-				A6484DC018235811008041A7 /* alienDestroyed7@2x.png in Resources */,
+				A6484E1318235D18008041A7 /* boosters@2x.png in Resources */,
 				A6AFF3DB181F7BF5004CD462 /* Main.storyboard in Resources */,
 				A6484D71182346D0008041A7 /* playerLeftShip.png in Resources */,
 				A66DB86B1821D9E10083DEF3 /* redFighterLeftAlien@2x.png in Resources */,
 				A66DB8641821D9E10083DEF3 /* redBomberLeftAlien.png in Resources */,
-				A6484DC818235811008041A7 /* alienDestroyed11@2x.png in Resources */,
 				A6484D74182346D0008041A7 /* playerRightShip@2x.png in Resources */,
-				A6484DE818235811008041A7 /* playerDestroyed6@2x.png in Resources */,
 				A66DB87A1821D9E10083DEF3 /* yellowJuggernautAlien.png in Resources */,
 				A66DB8771821D9E10083DEF3 /* yellowInterceptorLeftAlien@2x.png in Resources */,
 				A66DB8661821D9E10083DEF3 /* redBomberRightAlien.png in Resources */,
-				A6484DD818235811008041A7 /* item6@2x.png in Resources */,
+				A6484E1018235D18008041A7 /* alienLaserShot.png in Resources */,
 				A66DB87B1821D9E10083DEF3 /* yellowJuggernautAlien@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
