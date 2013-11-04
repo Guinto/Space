@@ -32,7 +32,7 @@
 {
     [[NSNotificationCenter defaultCenter] addObserver:self
                                              selector:@selector(spriteSpawned:)
-                                                 name:SPAlienSpawnedNotification
+                                                 name:SPEnemySpawnedNotification
                                                object:nil];
     
     [[NSNotificationCenter defaultCenter] addObserver:self

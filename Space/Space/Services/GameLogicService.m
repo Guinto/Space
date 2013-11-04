@@ -11,12 +11,14 @@
 #import "AlienService.h"
 #import "LaserService.h"
 #import "PlayerService.h"
+#import "AsteroidService.h"
 #import "Laser.h"
 #import "Player.h"
 #import "Alien.h"
+#import "Asteroid.h"
 
 #define LASER_SPEED 0.3
-#define MID_LEVEL_1_SCORE 1
+#define MID_LEVEL_1_SCORE 300
 #define MID_LEVEL_2_SCORE 450
 #define MID_LEVEL_3_SCORE 750
 #define MID_LEVEL_4_SCORE 1800
@@ -28,7 +30,7 @@
 @property (nonatomic) CFTimeInterval timeSinceAlienSpawn;
 @property (nonatomic) CFTimeInterval timeSinceLaserShot;
 @property (nonatomic) float approximateScore;
-@property (nonatomic, readonly) float score;
+@property (nonatomic, readonly) NSInteger score;
 
 @end
 
@@ -36,65 +38,72 @@
 
 #pragma mark - Logic methods
 
-- (float)score
+- (NSInteger)score
 {
     return ceil(self.approximateScore);
 }
 
-- (void)alienSpawnLogic:(CFTimeInterval)dt
+- (void)spawnLogic:(CFTimeInterval)dt
 {
-    SKSpriteNode *alienSprite;
+    SKSpriteNode *sprite;
     self.timeSinceAlienSpawn += dt;
     
     switch (self.stageLevel) {
         case SPStageLevel1:
-            alienSprite = [self alienSpawnLogicStageLevel1:dt];
+            sprite = [self spawnLogicStageLevel1:dt];
             break;
         case SPStageLevel2:
-            alienSprite = [self alienSpawnLogicStageLevel2:dt];
+            sprite = [self spawnLogicStageLevel2:dt];
             break;
         case SPStageLevel3:
-            alienSprite = [self alienSpawnLogicStageLevel3:dt];
+            sprite = [self spawnLogicStageLevel3:dt];
             break;
         case SPStageLevel4:
-            alienSprite = [self alienSpawnLogicStageLevel4:dt];
+            sprite = [self spawnLogicStageLevel4:dt];
             break;
         case SPStageLevel5:
-            alienSprite = [self alienSpawnLogicStageLevel5:dt];
+            sprite = [self spawnLogicStageLevel5:dt];
             break;
             
         default:
             break;
     }
     
-    if (alienSprite) {
+    if (sprite) {
         float scoreDependance = 0.7 - ceil(self.score / 100) / 10;
         self.spawnTime = arc4random_uniform(80) / 100.0 + (scoreDependance > 0 ? scoreDependance : 0);
         
         self.timeSinceAlienSpawn = 0;
-        [[NSNotificationCenter defaultCenter] postNotificationName:SPAlienSpawnedNotification
-                                                            object:alienSprite];
+        [[NSNotificationCenter defaultCenter] postNotificationName:SPEnemySpawnedNotification
+                                                            object:sprite];
     }
 }
 
-- (SKSpriteNode *)alienSpawnLogicStageLevel1:(CFTimeInterval)dt
+- (SKSpriteNode *)spawnLogicStageLevel1:(CFTimeInterval)dt
 {
-    SKSpriteNode *alienSprite;
+    SKSpriteNode *sprite;
     
     if (self.score < MID_LEVEL_1_SCORE && self.timeSinceAlienSpawn > self.spawnTime) {
-        alienSprite = [[AlienService sharedService] spawnEasyAlien];
-    } else if (self.timeSinceAlienSpawn > self.spawnTime) {
         if (arc4random_uniform(2)) {
-            alienSprite = [[AlienService sharedService] spawnEasyAlien];
+            sprite = [[AlienService sharedService] spawnEasyAlien];
         } else {
-            alienSprite = [[AlienService sharedService] spawnHardAlien];
+            sprite = [[AsteroidService sharedService] spawnAsteroid];
+        }
+    } else if (self.timeSinceAlienSpawn > self.spawnTime) {
+        NSInteger spawnType = arc4random_uniform(3);
+        if (spawnType == 0) {
+            sprite = [[AlienService sharedService] spawnEasyAlien];
+        } else if (spawnType == 1) {
+            sprite = [[AlienService sharedService] spawnHardAlien];
+        } else {
+            sprite = [[AsteroidService sharedService] spawnAsteroid];
         }
     }
     
-    return alienSprite;
+    return sprite;
 }
 
-- (SKSpriteNode *)alienSpawnLogicStageLevel2:(CFTimeInterval)dt
+- (SKSpriteNode *)spawnLogicStageLevel2:(CFTimeInterval)dt
 {
     SKSpriteNode *alienSprite;
     
@@ -111,7 +120,7 @@
     return alienSprite;
 }
 
-- (SKSpriteNode *)alienSpawnLogicStageLevel3:(CFTimeInterval)dt
+- (SKSpriteNode *)spawnLogicStageLevel3:(CFTimeInterval)dt
 {
     SKSpriteNode *alienSprite;
     
@@ -128,7 +137,7 @@
     return alienSprite;
 }
 
-- (SKSpriteNode *)alienSpawnLogicStageLevel4:(CFTimeInterval)dt
+- (SKSpriteNode *)spawnLogicStageLevel4:(CFTimeInterval)dt
 {
     SKSpriteNode *alienSprite;
     
@@ -145,7 +154,7 @@
     return alienSprite;
 }
 
-- (SKSpriteNode *)alienSpawnLogicStageLevel5:(CFTimeInterval)dt
+- (SKSpriteNode *)spawnLogicStageLevel5:(CFTimeInterval)dt
 {
     SKSpriteNode *alienSprite;
     
@@ -269,13 +278,15 @@
         default:
             break;
     }
+    
+    NSLog(@"Score: %d", self.score);
 }
 
 - (void)update:(CFTimeInterval)dt
 {
     [self updateScore:dt];
     
-    [self alienSpawnLogic:dt];
+    [self spawnLogic:dt];
     
     if (self.isFiringLasers) {
         [self fireLasers:dt];
@@ -286,6 +297,7 @@
     [[PlayerService sharedService] update:dt];
     [[LaserService sharedService] update:dt];
     [[AlienService sharedService] update:dt];
+    [[AsteroidService sharedService] update:dt];
 }
 
 #pragma mark - init methods

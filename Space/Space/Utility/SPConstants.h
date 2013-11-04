@@ -8,7 +8,7 @@
 
 #define TIME_PER_FRAME 0.025
 
-extern NSString * const SPAlienSpawnedNotification;
+extern NSString * const SPEnemySpawnedNotification;
 extern NSString * const SPAlienLaserSpawnedNotification;
 extern NSString * const SPLaserSpawnedNotification;
 extern NSString * const SPAlienDestroyedNotification;

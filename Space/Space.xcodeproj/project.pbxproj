@@ -115,6 +115,10 @@
 		A6B64C8E182790D700697346 /* AlienHardStage2.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B64C85182790D700697346 /* AlienHardStage2.m */; };
 		A6B64C8F182790D700697346 /* AlienHardStage3.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B64C87182790D700697346 /* AlienHardStage3.m */; };
 		A6B64C90182790D700697346 /* AlienHardStage4.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B64C89182790D700697346 /* AlienHardStage4.m */; };
+		A6D6775118279B06001D30A6 /* Asteroid.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D6775018279B06001D30A6 /* Asteroid.m */; };
+		A6D6775418279C10001D30A6 /* AsteroidService.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D6775318279C10001D30A6 /* AsteroidService.m */; };
+		A6D6775718279C2B001D30A6 /* asteroid.png in Resources */ = {isa = PBXBuildFile; fileRef = A6D6775518279C2B001D30A6 /* asteroid.png */; };
+		A6D6775818279C2B001D30A6 /* asteroid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6D6775618279C2B001D30A6 /* asteroid@2x.png */; };
 		A6E113771820D43300847F33 /* playerShot.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E113741820D43300847F33 /* playerShot.png */; };
 		A6E113781820D43300847F33 /* playerShot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6E113751820D43300847F33 /* playerShot@2x.png */; };
 		A6E1137D1820D4BE00847F33 /* ServiceBase.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E1137C1820D4BE00847F33 /* ServiceBase.m */; };
@@ -276,6 +280,12 @@
 		A6B64C87182790D700697346 /* AlienHardStage3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AlienHardStage3.m; path = DomainObjects/Aliens/AlienHardStage3.m; sourceTree = "<group>"; };
 		A6B64C88182790D700697346 /* AlienHardStage4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AlienHardStage4.h; path = DomainObjects/Aliens/AlienHardStage4.h; sourceTree = "<group>"; };
 		A6B64C89182790D700697346 /* AlienHardStage4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AlienHardStage4.m; path = DomainObjects/Aliens/AlienHardStage4.m; sourceTree = "<group>"; };
+		A6D6774F18279B06001D30A6 /* Asteroid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Asteroid.h; path = DomainObjects/Asteroid.h; sourceTree = "<group>"; };
+		A6D6775018279B06001D30A6 /* Asteroid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Asteroid.m; path = DomainObjects/Asteroid.m; sourceTree = "<group>"; };
+		A6D6775218279C10001D30A6 /* AsteroidService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AsteroidService.h; path = Services/AsteroidService.h; sourceTree = "<group>"; };
+		A6D6775318279C10001D30A6 /* AsteroidService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AsteroidService.m; path = Services/AsteroidService.m; sourceTree = "<group>"; };
+		A6D6775518279C2B001D30A6 /* asteroid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = asteroid.png; path = images/asteroid.png; sourceTree = "<group>"; };
+		A6D6775618279C2B001D30A6 /* asteroid@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "asteroid@2x.png"; path = "images/asteroid@2x.png"; sourceTree = "<group>"; };
 		A6E113741820D43300847F33 /* playerShot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = playerShot.png; path = images/playerShot.png; sourceTree = "<group>"; };
 		A6E113751820D43300847F33 /* playerShot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "playerShot@2x.png"; path = "images/playerShot@2x.png"; sourceTree = "<group>"; };
 		A6E1137B1820D4BE00847F33 /* ServiceBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ServiceBase.h; path = Services/ServiceBase.h; sourceTree = "<group>"; };
@@ -430,6 +440,8 @@
 		A6AFF403181F8049004CD462 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				A6D6775518279C2B001D30A6 /* asteroid.png */,
+				A6D6775618279C2B001D30A6 /* asteroid@2x.png */,
 				A6FEFFED18276E9D00C92732 /* SpaceBackground2.jpg */,
 				A6FEFFEE18276E9D00C92732 /* SpaceBackground2@2x.jpg */,
 				A6FEFFEF18276E9D00C92732 /* SpaceBackground3.jpg */,
@@ -562,6 +574,8 @@
 				A66DB8841821DAF00083DEF3 /* AlienService.m */,
 				A66DB8861821DDCE0083DEF3 /* GameLogicService.h */,
 				A66DB8871821DDCE0083DEF3 /* GameLogicService.m */,
+				A6D6775218279C10001D30A6 /* AsteroidService.h */,
+				A6D6775318279C10001D30A6 /* AsteroidService.m */,
 			);
 			name = Services;
 			sourceTree = "<group>";
@@ -580,6 +594,8 @@
 				A6E113921820E31E00847F33 /* Background.m */,
 				A66DB8801821DAB20083DEF3 /* Alien.h */,
 				A66DB8811821DAB20083DEF3 /* Alien.m */,
+				A6D6774F18279B06001D30A6 /* Asteroid.h */,
+				A6D6775018279B06001D30A6 /* Asteroid.m */,
 			);
 			name = DomainObjects;
 			sourceTree = "<group>";
@@ -677,6 +693,7 @@
 				A6FEFFF518276E9D00C92732 /* SpaceBackground2.jpg in Resources */,
 				A6484E2418235D18008041A7 /* rightWeaponAddon@2x.png in Resources */,
 				A66DB87C1821D9E10083DEF3 /* yellowJuggernautLeftAlien.png in Resources */,
+				A6D6775718279C2B001D30A6 /* asteroid.png in Resources */,
 				A6484E1218235D18008041A7 /* boosters.png in Resources */,
 				A66DB85E1821D9E10083DEF3 /* orangeJuggernautLeftAlien.png in Resources */,
 				A6AFF3D2181F7BF5004CD462 /* InfoPlist.strings in Resources */,
@@ -712,6 +729,7 @@
 				A66DB8541821D9E10083DEF3 /* greenBomberRightAlien.png in Resources */,
 				A66DB8741821D9E10083DEF3 /* yellowInterceptorAlien.png in Resources */,
 				A6484E1B18235D18008041A7 /* item5@2x.png in Resources */,
+				A6D6775818279C2B001D30A6 /* asteroid@2x.png in Resources */,
 				A66DB8561821D9E10083DEF3 /* greenFighterAlien.png in Resources */,
 				A6484E0F18235D18008041A7 /* alienLaserRoundShot@2x.png in Resources */,
 				A6E113771820D43300847F33 /* playerShot.png in Resources */,
@@ -780,10 +798,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6D6775418279C10001D30A6 /* AsteroidService.m in Sources */,
 				A6AFF3E1181F7BF5004CD462 /* MyScene.m in Sources */,
 				A66DB8851821DAF00083DEF3 /* AlienService.m in Sources */,
 				A6B64C90182790D700697346 /* AlienHardStage4.m in Sources */,
 				A6E113871820D62600847F33 /* Laser.m in Sources */,
+				A6D6775118279B06001D30A6 /* Asteroid.m in Sources */,
 				A6AFF3DE181F7BF5004CD462 /* GameViewController.m in Sources */,
 				A6E1137D1820D4BE00847F33 /* ServiceBase.m in Sources */,
 				A6B64C8A182790D700697346 /* AlienEasyStage2.m in Sources */,
