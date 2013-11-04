@@ -8,12 +8,15 @@
 
 #import <SpriteKit/SpriteKit.h>
 #import "ServiceBase.h"
+#import "Alien.h"
 
 @interface LaserService : ServiceBase
 
 @property (nonatomic) NSMutableArray *playerLaserShots;
+@property (nonatomic) NSMutableArray *alienLaserShots;
 
 - (SKSpriteNode *)shootPlayerLaser;
+- (SKSpriteNode *)shootAlienLaser:(Alien *)alien;
 - (void)update:(CFTimeInterval)tick;
 
 + (LaserService *)sharedService;

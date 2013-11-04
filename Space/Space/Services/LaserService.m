@@ -12,12 +12,23 @@
 #import "UIScreen+ScreenSize.h"
 
 #define TIME_MODIFIER 500
+#define BOTTOM_OF_SCREEN -10
 
 @interface LaserService ()
 
 @end
 
 @implementation LaserService
+
+- (SKSpriteNode *)shootAlienLaser:(Alien *)alien
+{
+    Laser *shot = [[Laser alloc] init];
+    shot.sprite.position = alien.sprite.position;
+    
+    [self.alienLaserShots addObject:shot];
+    
+    return shot.sprite;
+}
 
 - (SKSpriteNode *)shootPlayerLaser
 {
@@ -31,6 +42,12 @@
 }
 
 - (void)update:(CFTimeInterval)dt;
+{
+    [self updatePlayerLasers:dt];
+    [self updateAlienLasers:dt];
+}
+
+- (void)updatePlayerLasers:(CFTimeInterval)dt
 {
     if (self.playerLaserShots.count == 0) {
         return;
@@ -48,12 +65,31 @@
     }
 }
 
+- (void)updateAlienLasers:(CFTimeInterval)dt
+{
+    if (self.alienLaserShots.count == 0) {
+        return;
+    }
+    
+    NSArray *currentAlienShots = [self.alienLaserShots copy];
+    
+    for (Laser *shot in currentAlienShots)
+    {
+        if (shot.sprite.position.y < BOTTOM_OF_SCREEN || shot.hit) {
+            [self.alienLaserShots removeObject:shot];
+        } else {
+            shot.sprite.position = CGPointMake(shot.sprite.position.x, shot.sprite.position.y - 1 * dt * TIME_MODIFIER);
+        }
+    }
+}
+
 - (id)init
 {
     self = [super init];
     
     if (self) {
         self.playerLaserShots = [[NSMutableArray alloc] init];
+        self.alienLaserShots = [[NSMutableArray alloc] init];
     }
     
     return self;

@@ -41,6 +41,11 @@
                                                object:nil];
     
     [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(spriteSpawned:)
+                                                 name:SPAlienLaserSpawnedNotification
+                                               object:nil];
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self
                                              selector:@selector(spriteDestroyed:)
                                                  name:SPPlayerDestroyedNotification
                                                object:nil];
@@ -97,7 +102,9 @@
 {
     CFTimeInterval dt = currentTime - self.previousTime;
     
-    [[GameLogicService sharedService] update:dt];
+    if (self.previousTime) {
+        [[GameLogicService sharedService] update:dt];
+    }
     
     self.previousTime = currentTime;
 }

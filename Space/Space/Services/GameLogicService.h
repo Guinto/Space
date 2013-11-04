@@ -7,11 +7,14 @@
 //
 
 #import "ServiceBase.h"
+#import "SPEnums.h"
 
 @interface GameLogicService : ServiceBase
 
 @property (nonatomic) NSInteger *gameDifficulty;
 @property (nonatomic, getter = isFiringLasers) BOOL fireLasers;
+@property (nonatomic) SPStageLevel stageLevel;
+@property (nonatomic) SPPlayerRank playerRank;
 
 - (void)prepareToFireLasers;
 - (void)update:(CFTimeInterval)dt;

@@ -11,9 +11,14 @@
 
 @interface Alien : DomainObjectBase
 
-@property (nonatomic) SPAlienType alienType;
+@property (nonatomic) SPShipType alienType;
+@property (nonatomic) BOOL destroyed;
 
+- (void)update:(CFTimeInterval)dt;
 - (void)animateDestroyedWithCompletion:(void(^)())completion;
+
 - (id)initAsRandomAlien;
+- (id)initAsEasyAlienForStageLevel:(SPStageLevel)stageLevel;
+- (id)initAsHardAlienForStageLevel:(SPStageLevel)stageLevel;
 
 @end

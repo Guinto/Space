@@ -7,37 +7,56 @@
 //
 
 #import "Alien.h"
+#import "SPConstants.h"
+#import "AlienEasyStage1.h"
+#import "AlienEasyStage2.h"
+#import "AlienEasyStage3.h"
+#import "AlienEasyStage4.h"
+#import "AlienHardStage1.h"
+#import "AlienHardStage2.h"
+#import "AlienHardStage3.h"
+#import "AlienHardStage4.h"
 
 @implementation Alien
 @synthesize sprite = _sprite;
 
-- (SKSpriteNode *)spriteWithType:(SPAlienType)alienType
+- (void)update:(CFTimeInterval)dt
+{
+    if (self.destroyed) {
+        [self animateDestroyedWithCompletion:^{
+            [[NSNotificationCenter defaultCenter] postNotificationName:SPAlienDestroyedNotification
+                                                                object:self.sprite];
+        }];
+    }
+}
+
+- (SKSpriteNode *)spriteWithType:(SPShipType)alienType
 {
     self.alienType = alienType;
     
     switch (alienType) {
-        case SPAlienTypeYellowJuggernaut:
+        case SPShipTypeAlienTypeYellowJuggernaut:
             _sprite = [SKSpriteNode spriteNodeWithImageNamed:@"yellowJuggernautAlien"];
             break;
-        case SPAlienTypeYellowInterceptor:
+        case SPShipTypeAlienTypeYellowInterceptor:
             _sprite = [SKSpriteNode spriteNodeWithImageNamed:@"yellowInterceptorAlien"];
             break;
-        case SPAlienTypeGreenBomber:
+        case SPShipTypeAlienTypeGreenBomber:
             _sprite = [SKSpriteNode spriteNodeWithImageNamed:@"greenBomberAlien"];
             break;
-        case SPAlienTypeGreenFighter:
+        case SPShipTypeAlienTypeGreenFighter:
             _sprite = [SKSpriteNode spriteNodeWithImageNamed:@"greenFighterAlien"];
             break;
-        case SPAlienTypeOrangeJuggernaut:
+        case SPShipTypeAlienTypeOrangeJuggernaut:
             _sprite = [SKSpriteNode spriteNodeWithImageNamed:@"orangeJuggernautAlien"];
             break;
-        case SPAlienTypeRedBomber:
+        case SPShipTypeAlienTypeRedBomber:
             _sprite = [SKSpriteNode spriteNodeWithImageNamed:@"redBomberAlien"];
             break;
-        case SPAlienTypeRedFighter:
+        case SPShipTypeAlienTypeRedFighter:
             _sprite = [SKSpriteNode spriteNodeWithImageNamed:@"redFighterAlien"];
             break;
-        case SPAlienTypeVioletInterceptor:
+        case SPShipTypeAlienTypeVioletInterceptor:
             _sprite = [SKSpriteNode spriteNodeWithImageNamed:@"violetInterceptorAlien"];
             break;
             
@@ -50,7 +69,17 @@
 
 - (SKSpriteNode *)randomAlienSprite
 {
-    return [self spriteWithType:arc4random_uniform(8)];
+    return [self spriteWithType:arc4random_uniform(8) + 1];
+}
+
+- (SKSpriteNode *)randomAlienEasySprite
+{
+    return [self spriteWithType:arc4random_uniform(4) + 1];
+}
+
+- (SKSpriteNode *)randomAlienHardSprite
+{
+    return [self spriteWithType:arc4random_uniform(4) + 5];
 }
 
 - (void)animateDestroyedWithCompletion:(void(^)())completion
@@ -69,7 +98,7 @@
     SKTexture *f11 = [atlas textureNamed:@"alienDestroyed11.png"];
     NSArray *alienExplosionTextures = @[f1, f2, f3, f4, f5, f6, f7, f8, f9, f10, f11];
     
-    SKAction *alienDestroyedAnimation = [SKAction animateWithTextures:alienExplosionTextures timePerFrame:0.1];
+    SKAction *alienDestroyedAnimation = [SKAction animateWithTextures:alienExplosionTextures timePerFrame:TIME_PER_FRAME];
     [self.sprite runAction:alienDestroyedAnimation completion:^{
         completion();
     }];
@@ -81,9 +110,71 @@
 - (SKSpriteNode *)sprite
 {
     if (!_sprite) {
-        _sprite = [self spriteWithType:SPAlienTypeRedFighter];
+        _sprite = [self spriteWithType:SPShipTypeAlienTypeRedFighter];
     }
     return _sprite;
+}
+
+- (id)initAsEasyAlienForStageLevel:(SPStageLevel)stageLevel
+{
+    switch (stageLevel) {
+        case SPStageLevel1:
+            self = [[AlienEasyStage1 alloc] init];
+            self.sprite = [self spriteWithType:SPShipTypeAlienTypeRedFighter];
+            break;
+        case SPStageLevel2:
+            self = [[AlienEasyStage1 alloc] init];
+            self.sprite = [self spriteWithType:SPShipTypeAlienTypeYellowInterceptor];
+            break;
+        case SPStageLevel3:
+            self = [[AlienEasyStage1 alloc] init];
+            self.sprite = [self spriteWithType:SPShipTypeAlienTypeRedBomber];
+            break;
+        case SPStageLevel4:
+            self = [[AlienEasyStage1 alloc] init];
+            self.sprite = [self spriteWithType:SPShipTypeAlienTypeYellowJuggernaut];
+            break;
+        case SPStageLevel5:
+#warning FIGURE THIS OUT
+            self.sprite = [self randomAlienEasySprite];
+            break;
+            
+        default:
+            break;
+    }
+    
+    return self;
+}
+
+- (id)initAsHardAlienForStageLevel:(SPStageLevel)stageLevel
+{
+    switch (stageLevel) {
+        case SPStageLevel1:
+            self = [[AlienHardStage1 alloc] init];
+            self.sprite = [self spriteWithType:SPShipTypeAlienTypeGreenFighter];
+            break;
+        case SPStageLevel2:
+            self = [[AlienHardStage2 alloc] init];
+            self.sprite = [self spriteWithType:SPShipTypeAlienTypeVioletInterceptor];
+            break;
+        case SPStageLevel3:
+            self = [[AlienHardStage3 alloc] init];
+            self.sprite = [self spriteWithType:SPShipTypeAlienTypeGreenBomber];
+            break;
+        case SPStageLevel4:
+            self = [[AlienHardStage4 alloc] init];
+            self.sprite = [self spriteWithType:SPShipTypeAlienTypeOrangeJuggernaut];
+            break;
+        case SPStageLevel5:
+#warning FIGURE THIS OUT
+            self.sprite = [self randomAlienHardSprite];
+            break;
+            
+        default:
+            break;
+    }
+    
+    return self;
 }
 
 - (id)initAsRandomAlien

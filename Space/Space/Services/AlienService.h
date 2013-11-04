@@ -8,12 +8,15 @@
 
 #import <SpriteKit/SpriteKit.h>
 #import "ServiceBase.h"
+#import "SPEnums.h"
 
 @interface AlienService : ServiceBase
 
 @property (nonatomic) NSMutableArray *aliens;
+@property (nonatomic) SPStageLevel stageLevel;
 
-- (SKSpriteNode *)spawnAlien;
+- (SKSpriteNode *)spawnEasyAlien;
+- (SKSpriteNode *)spawnHardAlien;
 - (void)update:(CFTimeInterval)dt;
 
 + (AlienService *)sharedService;

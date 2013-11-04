@@ -8,6 +8,7 @@
 
 #import "BackgroundService.h"
 #import "UIScreen+ScreenSize.h"
+#import "SPEnums.h"
 
 @interface BackgroundService ()
 
@@ -22,6 +23,7 @@
     if (self) {
         self.background = [[Background alloc] init];
         self.background.sprite.position = CGPointMake([UIScreen width] / 2, [UIScreen height] / 2);
+        self.background.stageLevel = SPStageLevel1;
     }
     
     return self;

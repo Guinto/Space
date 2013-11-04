@@ -7,7 +7,10 @@
 //
 
 #import "DomainObjectBase.h"
+#import "SPEnums.h"
 
 @interface Background : DomainObjectBase
+
+@property (nonatomic) SPStageLevel stageLevel;
 
 @end

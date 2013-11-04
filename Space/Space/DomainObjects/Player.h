@@ -7,11 +7,15 @@
 //
 
 #import "DomainObjectBase.h"
+#import "SPEnums.h"
 
 @interface Player : DomainObjectBase
+
+@property (nonatomic) SPShipType shipType;
 
 - (void)leanLeft;
 - (void)leanRight;
 - (void)stablize;
+- (void)animateDestroyedWithCompletion:(void(^)())completion;
 
 @end
